@@ -1,5 +1,8 @@
 package cn.touale.cula;
 
+import cn.touale.cula.api.RemoteNewsService;
+import org.springframework.beans.factory.annotation.Autowired;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -13,10 +16,14 @@ import java.io.PrintWriter;
  * @date 2021/12/30 13:20
  */
 public class HelloServlet extends HttpServlet {
+    @Autowired
+    private RemoteNewsService service;
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter writer = resp.getWriter();
-        writer.print("Hello,Servlet2");
+       // System.out.println(service.test());
+        writer.print("123");
     }
 
     @Override

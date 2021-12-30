@@ -18,6 +18,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @MapperScan("cn.touale.cula.mapper")
 public class NewsApplication {
     public static void main(String[] args) {
-        SpringApplication.run(NewsApplication.class,args);
+        SpringApplication.run(NewsApplication.class, args);
     }
 }
