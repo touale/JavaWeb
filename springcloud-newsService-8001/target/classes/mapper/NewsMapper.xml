@@ -7,6 +7,4 @@
         SELECT * FROM DbNews.NEWS;
     </select>
 
-
-
 </mapper>

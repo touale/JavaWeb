@@ -3,6 +3,7 @@ package cn.touale.cula.controller;
 import cn.touale.cula.entity.News;
 import cn.touale.cula.service.NewsService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

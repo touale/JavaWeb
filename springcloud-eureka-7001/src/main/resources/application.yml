@@ -1,5 +1,5 @@
 server:
-  port: 8761
+  port: 7001
 
 
 # Eureka配置
@@ -14,4 +14,4 @@ eureka:
 
 spring:
   application:
-    name: GZHU-eureka_7001
+    name: eureka_7001
