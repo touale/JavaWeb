@@ -1,0 +1,40 @@
+GET http://localhost:8001/test
+
+<> 2021-12-30T143248.404.json
+
+###
+
+GET http://localhost:8001/test
+
+###
+
+GET http://localhost:8001/test
+
+<> 2021-12-30T143153.404.json
+
+###
+
+GET http://localhost:8001/test
+
+<> 2021-12-30T143105.404.json
+
+###
+
+GET http://localhost:8001/getNewsList
+
+<> 2021-12-30T142936.404.json
+
+###
+
+GET http://localhost:8001/getNewsList
+
+<> 2021-12-30T142909.404.json
+
+###
+
+GET http://localhost:8001/getNewsList
+
+<> 2021-12-30T142834.404.json
+
+###
+
