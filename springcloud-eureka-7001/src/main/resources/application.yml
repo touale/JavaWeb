@@ -2,7 +2,6 @@ server:
   port: 7001
 
 
-
 # Eureka配置
 eureka:
   instance:
