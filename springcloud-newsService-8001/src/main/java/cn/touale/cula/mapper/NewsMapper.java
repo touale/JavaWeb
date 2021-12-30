@@ -15,7 +15,9 @@ import java.util.List;
 public interface NewsMapper {
     List<News> getNewsList();
 
-    List<News> getNewsInfoList(@Param("startRow") Integer startRow, @Param("endRow") Integer endRow);
+    List<News> getNewsInfoList(@Param("startRow") Integer startRow, @Param("endRow") Integer endRow, @Param("tid") Integer tid);
 
-    Integer getNewsNum();
+    Integer getNewsNum(@Param("tid") Integer tid);
+
+    News getNewsInfo(@Param("nid") Integer nid);
 }

@@ -1,8 +1,10 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"
+         isELIgnored="false" %>
 <div id="opt_list">
   <ul>
-    <li><a href="/NewsOnline/newspages/news_add.jsp">添加新闻</a></li>
-    <li><a href="/NewsOnline/AdminServlet?action=adminIndex">编辑新闻</a></li>
-    <li><a href="/NewsOnline/newspages/topic_add.jsp">添加主题</a></li>
-    <li><a href="topic_list.jsp">编辑主题</a></li>
+    <li><a href="/NewsOnline/newspages/news_add.jsp">娣诲姞鏂伴椈</a></li>
+    <li><a href="/NewsOnline/AdminServlet?action=adminIndex">缂栬緫鏂伴椈</a></li>
+    <li><a href="/NewsOnline/newspages/topic_add.jsp">娣诲姞涓婚</a></li>
+    <li><a href="topic_list.jsp">缂栬緫涓婚</a></li>
   </ul>
 </div>

@@ -14,7 +14,9 @@ import java.util.List;
 public interface NewsService {
     List<News> getNewsList();
 
-    List<News> getNewsInfoList(Integer num,Integer size);
+    List<News> getNewsInfoList(Integer num,Integer size,Integer tid);
 
-    Integer getNewsNum();
+    Integer getNewsNum(Integer tid);
+
+    News getNewsInfo(Integer nid);
 }

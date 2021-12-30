@@ -23,12 +23,17 @@ public class NewsServiceImpl implements NewsService {
     }
 
     @Override
-    public List<News> getNewsInfoList(Integer num, Integer size) {
-        return newsMapper.getNewsInfoList((num - 1) * size, size);
+    public List<News> getNewsInfoList(Integer num, Integer size,Integer tid) {
+        return newsMapper.getNewsInfoList((num - 1) * size, size,tid);
     }
 
     @Override
-    public Integer getNewsNum() {
-        return newsMapper.getNewsNum();
+    public Integer getNewsNum(Integer tid) {
+        return newsMapper.getNewsNum(tid);
+    }
+
+    @Override
+    public News getNewsInfo(Integer nid) {
+        return newsMapper.getNewsInfo(nid);
     }
 }

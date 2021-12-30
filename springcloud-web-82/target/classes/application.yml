@@ -1,5 +1,5 @@
 server:
-  port: 84
+  port: 81
 
 
 
@@ -8,12 +8,12 @@ eureka:
     service-url:
       defaultZone: http://127.0.0.1:7001/eureka/
   instance:
-    instance-id: web-83
+    instance-id: web-81
     prefer-ip-address: true
 
 spring:
   application:
-    name: web-83
+    name: web-81
 
 ##如果按照一般web工程将页面放在src/main/webapp/WEB-INF/jsp/，则配置前缀
 #spring.mvc.view.prefix: /WEB-INF/

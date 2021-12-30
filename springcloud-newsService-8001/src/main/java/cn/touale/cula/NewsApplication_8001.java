@@ -1,21 +1,23 @@
 package cn.touale.cula;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
+
 /**
  * @author Touale
- * @description Application
- * @date 2021/12/30 15:10
+ * @description NewsApplication
+ * @date 2021/12/30 13:45
  */
-
-@SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
-public class Application {
+@SpringBootApplication
+@MapperScan("cn.touale.cula.mapper")
+public class NewsApplication_8001 {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(NewsApplication_8001.class, args);
     }
 }
