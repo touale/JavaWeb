@@ -4,7 +4,20 @@
 
 
     <select id="getNewsList" resultType="cn.touale.cula.entity.News">
-        SELECT * FROM DbNews.NEWS;
+        SELECT *
+        FROM DbNews.NEWS;
     </select>
+
+
+    <select id="getNewsInfoList" resultType="cn.touale.cula.entity.News">
+        SELECT *
+        FROM DbNews.NEWS limit #{startRow},#{endRow};
+    </select>
+
+    <select id="getNewsNum" resultType="Integer">
+        select count(*)
+        from DbNews.NEWS;
+    </select>
+
 
 </mapper>

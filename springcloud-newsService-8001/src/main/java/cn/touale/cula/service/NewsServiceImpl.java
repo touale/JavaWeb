@@ -13,12 +13,22 @@ import java.util.List;
  * @date 2021/12/30 14:10
  */
 @Service
-public class NewsServiceImpl implements NewsService{
+public class NewsServiceImpl implements NewsService {
     @Autowired
     NewsMapper newsMapper;
 
     @Override
     public List<News> getNewsList() {
         return newsMapper.getNewsList();
+    }
+
+    @Override
+    public List<News> getNewsInfoList(Integer num, Integer size) {
+        return newsMapper.getNewsInfoList((num - 1) * size, size);
+    }
+
+    @Override
+    public Integer getNewsNum() {
+        return newsMapper.getNewsNum();
     }
 }

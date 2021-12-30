@@ -3,6 +3,8 @@ package cn.touale.cula.api;
 import cn.touale.cula.entity.News;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
@@ -19,4 +21,10 @@ public interface RemoteNewsService {
 
     @GetMapping("/getNewsList")
     public List<News> getNewsList();
+
+    @PostMapping("/getNewsInfoList")
+    public List<News> getNewsInfoList(@RequestParam(name = "page") Integer page, @RequestParam(name = "size") Integer size);
+
+    @GetMapping("/getNewsNum")
+    public Integer getNewsNum();
 }

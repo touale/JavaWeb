@@ -13,4 +13,8 @@ import java.util.List;
 @Service
 public interface NewsService {
     List<News> getNewsList();
+
+    List<News> getNewsInfoList(Integer num,Integer size);
+
+    Integer getNewsNum();
 }

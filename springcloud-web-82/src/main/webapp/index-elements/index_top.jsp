@@ -38,17 +38,22 @@
 	
 	<!-- 判断是否登录   session  -->
 		<form action="" method="post" onsubmit="return check()">
+			<label> 账&#160;&#160;号 </label>
 			<input type="text" id="uname"  name="uname" value="" class="login_input" />
 			<label> 密&#160;&#160;码 </label>
 			<input type="password" id="upwd" name="upwd" value="" class="login_input" />
 			<input type="submit" class="login_sub" value="登录" />
 			<label id="error"> </label>
+
+			<!-- 已经登录 -->
+			&nbsp; &nbsp; &nbsp; 欢迎您：    &nbsp; &nbsp; &nbsp;<a href="newspages/admin.jsp">登录控制台</a> &nbsp; <a href="util/do_logout.jsp">退出</a>
+			<!-- 已经登录 -->
 			<img src="Images/friend_logo.gif" alt="Google" id="friend_logo" />
 		</form>
 	<!-- 判断是否登录   session  -->
 	
 	<!-- 已经登录 -->
-		欢迎您：    &nbsp; &nbsp; &nbsp;<a href="newspages/admin.jsp">登录控制台</a> &nbsp; <a href="util/do_logout.jsp">退出</a>
+	<a >&nbsp;</a>
 	<!-- 已经登录 -->
   </div>
   <div id="nav">

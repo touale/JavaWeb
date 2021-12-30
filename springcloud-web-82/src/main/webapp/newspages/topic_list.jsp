@@ -12,7 +12,7 @@
 
 
 <div id="main">
-	<jsp:include page="console_element/left.html" />
+	<jsp:include page="console_element/left.jsp" />
 	<div id="opt_area">
 		<ul class="classlist">
 			<!-- 遍历  topic list -->
@@ -37,4 +37,4 @@
 </div>
 
 
-<jsp:include page="console_element/bottom.html" />
+<jsp:include page="console_element/bottom.jsp" />

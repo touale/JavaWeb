@@ -2,6 +2,7 @@ package cn.touale.cula.mapper;
 
 import cn.touale.cula.entity.News;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -13,4 +14,8 @@ import java.util.List;
 @Mapper
 public interface NewsMapper {
     List<News> getNewsList();
+
+    List<News> getNewsInfoList(@Param("startRow") Integer startRow, @Param("endRow") Integer endRow);
+
+    Integer getNewsNum();
 }

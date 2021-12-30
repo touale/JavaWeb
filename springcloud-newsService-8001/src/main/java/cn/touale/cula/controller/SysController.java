@@ -5,6 +5,8 @@ import cn.touale.cula.service.NewsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -30,5 +32,17 @@ public class SysController {
     public List<News> getNewsList(){
         return newsService.getNewsList();
     }
+
+    @PostMapping("/getNewsInfoList")
+    public List<News> getNewsInfoList(@RequestParam(name = "page") Integer page, @RequestParam(name = "size") Integer size) {
+        return newsService.getNewsInfoList(page, size);
+    }
+
+    @GetMapping("/getNewsNum")
+    public Integer getNewsNum(){
+        return newsService.getNewsNum();
+    }
+
+
 
 }

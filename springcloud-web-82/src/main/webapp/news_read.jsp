@@ -156,4 +156,4 @@ function checkComment() {
 	request.removeAttribute("news_view");
 	request.removeAttribute("comments_view");
 %>
-<jsp:include page="index-elements/index_bottom.html" />
+<jsp:include page="index-elements/index_bottom.jsp" />

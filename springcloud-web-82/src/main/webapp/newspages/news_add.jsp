@@ -35,7 +35,7 @@
 </script>
 
 <div id="main">
-  <jsp:include page="console_element/left.html" />
+  <jsp:include page="console_element/left.jsp" />
   <div id="opt_area">
     <h1 id="opt_type"> 添加新闻： </h1>
     <form action="../util/do_add_news.jsp" method="post" enctype="multipart/form-data" onsubmit="return check()">
@@ -73,4 +73,4 @@
   </div>
 </div>
 
-<jsp:include page="console_element/bottom.html" />
+<jsp:include page="console_element/bottom.jsp" />

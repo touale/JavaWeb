@@ -33,7 +33,7 @@
 
 
 <div id="main">
-	<jsp:include page="console_element/left.html" />
+	<jsp:include page="console_element/left.jsp" />
 	<div id="opt_area">
 		<h1 id="opt_type">添加新闻：</h1>
 		<form action="../util/do_update_news.jsp" method="post"
@@ -109,4 +109,4 @@
 	</div>
 </div>
 
-<jsp:include page="console_element/bottom.html" />
+<jsp:include page="console_element/bottom.jsp" />

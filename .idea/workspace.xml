@@ -9,19 +9,99 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87543893-4307-4bde-a99b-aeae1f1e84f5" name="Changes" comment="add fegin">
-      <change afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/api/RemoteNewsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="87543893-4307-4bde-a99b-aeae1f1e84f5" name="Changes" comment="version 1.1">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_78.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_43.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_43.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_43.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/config/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/cn/touale/cula/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/cn/touale/cula/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/cn/touale/cula/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/cn/touale/cula/HelloServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/NewsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/NewsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/controller/SysController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/controller/SysController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/mapper/NewsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/mapper/NewsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/NewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/NewsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/NewsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/resources/mapper/NewsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/resources/mapper/NewsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/controller/SysController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/controller/SysController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/mapper/NewsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/mapper/NewsMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/service/NewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/service/NewsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/service/NewsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/service/NewsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/mapper/NewsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/mapper/NewsMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-web-82/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/springcloud-web-82.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/springcloud-web-82.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/api/RemoteNewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/api/RemoteNewsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/META-INF/springcloud-web-82.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/api/RemoteNewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/api/RemoteNewsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/TestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/CSS/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/CSS/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/CSS/read.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/Picture1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/Picture1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/Picture2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/Picture2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/Picture3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/Picture3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/Picture4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/Picture4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/a_b01.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/a_b01.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/admin_bar.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/admin_bar.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/arrow.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/arrow.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/blue_bar.png" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/blue_bar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/channel_bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/channel_bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/class_bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/class_bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/class_type.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/class_type.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/firend_bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/firend_bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/friend_ico.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/friend_ico.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/friend_logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/friend_logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/friend_t.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/friend_t.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/head.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/head.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/left.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/left.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/login_input.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/login_input.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/login_sub.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/login_sub.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/logo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/logo1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/main-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/main-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/nav_leftdot.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/nav_leftdot.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/nav_leftline.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/nav_leftline.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/opt_name.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/opt_name.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/opt_sub.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/opt_sub.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/sidebarbg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/sidebarbg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/title_1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/title_1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/title_2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/title_2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/title_3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/title_3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/Images/topbg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/Images/topbg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/index-elements/index_bottom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/index-elements/index_rightbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/index-elements/index_sidebar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/index-elements/index_top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/news_read.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/news_read.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/newspages/admin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/newspages/console_element/bottom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/newspages/console_element/left - 副本.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/newspages/console_element/left.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/newspages/console_element/left.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/newspages/console_element/top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/newspages/news_add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/newspages/news_modify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/newspages/topic_add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/newspages/topic_list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/web/newspages/topic_modify.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +112,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="jsf" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -72,6 +154,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -81,13 +164,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-web-82/src/main/webapp" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Desktop\作业\大三上作业\homeWork\springcloud-web-82\src\main\webapp" />
+      <recent name="C:\Users\lenovo\Desktop\作业\大三上作业\homeWork\springcloud-web-82\src\main\webapp\index-elements" />
+      <recent name="C:\Users\lenovo\Desktop\作业\大三上作业\homeWork\springcloud-web-82\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Desktop\作业\大三上作业\homeWork\springcloud-web-82\src\main\resources\templates" />
+    </key>
     <key name="DestinationChooserDialog.Package.RECENTS_KEY">
       <recent name="cn.touale.cula.entity" />
     </key>
@@ -101,13 +192,16 @@
     </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloud-web-82" />
-      <extension name="coverage">
+      <extension name="coverage" track_test_folders="true">
         <pattern>
           <option name="PATTERN" value="cn.touale.cula.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.touale.cula.Application" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/springcloud-web-82" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,6 +229,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.touale.cula.NewsApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -257,7 +352,8 @@
       <workItem from="1640838721789" duration="2105000" />
       <workItem from="1640840849352" duration="5701000" />
       <workItem from="1640846580829" duration="4307000" />
-      <workItem from="1640854001317" duration="1087000" />
+      <workItem from="1640854001317" duration="2485000" />
+      <workItem from="1640856511887" duration="17983000" />
     </task>
     <task id="LOCAL-00001" summary="add eureka">
       <created>1640841325280</created>
@@ -301,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640849452396</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="version 1.1">
+      <created>1640855264952</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640855264952</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +427,7 @@
     <MESSAGE value="add service" />
     <MESSAGE value="version1.0" />
     <MESSAGE value="add fegin" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fegin" />
+    <MESSAGE value="version 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.1" />
   </component>
 </project>
