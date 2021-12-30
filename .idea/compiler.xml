@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-newsService-8001" />
         <module name="springcloud-web-82" />
         <module name="springcloud-eureka-7001" />
       </profile>
@@ -14,6 +15,7 @@
     <bytecodeTargetLevel>
       <module name="homeWork" target="1.8" />
       <module name="springcloud-eureka-7001" target="8" />
+      <module name="springcloud-newsService-8001" target="8" />
       <module name="springcloud-web-82" target="8" />
     </bytecodeTargetLevel>
   </component>
