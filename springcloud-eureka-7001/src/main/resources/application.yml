@@ -1,0 +1,18 @@
+server:
+  port: 7001
+
+
+
+# Eureka配置
+eureka:
+  instance:
+    hostname: GZHU-eureka_7001
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://127.0.0.1:${server.port}/eureka/
+
+spring:
+  application:
+    name: GZHU-eureka_7001
