@@ -16,4 +16,6 @@ import javax.servlet.http.HttpServletRequest;
 public interface UtilService {
     ResultDTO doAddComment(Long nid, JSONObject jsonParam);
     ModelAndView buildMv(HttpServletRequest request,String name);
+
+
 }

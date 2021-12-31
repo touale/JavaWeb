@@ -45,5 +45,13 @@ public class NewsController {
         return newsService.getNewsInfo(nid);
     }
 
+    @PostMapping("/getAllNewsNum")
+    public Integer getAllNewsNum() {
+        return newsService.getAllNewsNum();
+    }
 
+    @PostMapping("/getNewsInfoList_withoutTid")
+    public List<News> getNewsInfoList_withoutTid(@RequestParam(name = "page") Integer page, @RequestParam(name = "size") Integer size) {
+        return newsService.getNewsInfoList_withoutTid(page, size);
+    }
 }

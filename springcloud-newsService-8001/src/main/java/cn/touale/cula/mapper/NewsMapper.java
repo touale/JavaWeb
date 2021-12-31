@@ -20,4 +20,9 @@ public interface NewsMapper {
     Integer getNewsNum(@Param("tid") Integer tid);
 
     News getNewsInfo(@Param("nid") Integer nid);
+
+    Integer getAllNewsNum();
+
+    List<News> getNewsInfoList_withoutTid(@Param("startRow") Integer startRow, @Param("endRow") Integer endRow);
+
 }

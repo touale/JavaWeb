@@ -1,6 +1,7 @@
 package cn.touale.cula.controller;
 
 import cn.touale.cula.result.ResultDTO;
+import cn.touale.cula.service.IndexService;
 import cn.touale.cula.service.UserService;
 import cn.touale.cula.service.UtilService;
 import com.alibaba.fastjson.JSONObject;
@@ -24,14 +25,17 @@ public class UserController {
     @Autowired
     private UtilService utilService;
 
+    @Autowired
+    private IndexService indexService;
+
     @RequestMapping(value = {"/index-elements/index_top",})
     public ModelAndView index_top(HttpServletRequest request) {
-        return userService.getLoginStatus(request,"index-elements/index_top");
+        return userService.getLoginStatus(request, "index-elements/index_top");
     }
 
     @RequestMapping(value = {"/newspages/admin",})
     public ModelAndView newspages_admin(HttpServletRequest request) {
-        return utilService.buildMv(request, "newspages/admin");
+        return indexService.newspages_admin(request);
     }
 
 
@@ -48,12 +52,13 @@ public class UserController {
 
     @RequestMapping(value = {"newspages/console_element/top"})
     public ModelAndView console_element_top(HttpServletRequest request) {
-        return userService.getLoginStatus(request,"newspages/console_element/top");
+        return userService.getLoginStatus(request, "newspages/console_element/top");
     }
 
-
-
-
+    @RequestMapping(value = {"newspages/news_modify"})
+    public ModelAndView newspages_news_modify(HttpServletRequest request) {
+        return indexService.newspages_news_modify(request);
+    }
 
 
     @PostMapping(value = "/doLogin", produces = "application/json;charset=UTF-8")

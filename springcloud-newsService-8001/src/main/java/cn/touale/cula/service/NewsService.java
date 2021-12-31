@@ -1,6 +1,7 @@
 package cn.touale.cula.service;
 
 import cn.touale.cula.entity.News;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,4 +20,8 @@ public interface NewsService {
     Integer getNewsNum(Integer tid);
 
     News getNewsInfo(Integer nid);
+
+    Integer getAllNewsNum();
+
+    List<News> getNewsInfoList_withoutTid(Integer num,Integer size);
 }

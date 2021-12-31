@@ -15,4 +15,8 @@ public interface IndexService {
     ModelAndView index(HttpServletRequest request);
 
     ModelAndView newsRead(HttpServletRequest request);
+
+    ModelAndView newspages_admin(HttpServletRequest request);
+
+    ModelAndView newspages_news_modify(HttpServletRequest request);
 }

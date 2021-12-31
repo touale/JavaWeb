@@ -19,7 +19,6 @@
                     <tr width="100%">
                         <td colspan="2" align="center">
                             ${newsTitle}
-                            ${tempnid}
                             <!-- news title -->
                         </td>
                     </tr>

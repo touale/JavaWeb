@@ -11,17 +11,32 @@
 
     <select id="getNewsInfoList" resultType="cn.touale.cula.entity.News">
         SELECT *
-        FROM DbNews.NEWS where ntid = #{tid} limit #{startRow},#{endRow};
+        FROM DbNews.NEWS
+        where ntid = #{tid} limit #{startRow}
+            , #{endRow};
     </select>
 
     <select id="getNewsNum" resultType="Integer">
         select count(*)
-        from DbNews.NEWS where ntid = #{tid};
+        from DbNews.NEWS
+        where ntid = #{tid};
     </select>
 
     <select id="getNewsInfo" resultType="cn.touale.cula.entity.News">
         SELECT *
-        FROM DbNews.NEWS where nid = #{nid};
+        FROM DbNews.NEWS
+        where nid = #{nid};
+    </select>
+
+    <select id="getAllNewsNum" resultType="Integer">
+        select count(*)
+        from DbNews.NEWS;
+    </select>
+
+    <select id="getNewsInfoList_withoutTid" resultType="cn.touale.cula.entity.News">
+        SELECT *
+        FROM DbNews.NEWS limit #{startRow}
+            , #{endRow};
     </select>
 
 

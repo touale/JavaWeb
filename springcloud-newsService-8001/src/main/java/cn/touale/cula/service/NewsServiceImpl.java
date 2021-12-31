@@ -36,4 +36,14 @@ public class NewsServiceImpl implements NewsService {
     public News getNewsInfo(Integer nid) {
         return newsMapper.getNewsInfo(nid);
     }
+
+    @Override
+    public Integer getAllNewsNum() {
+        return newsMapper.getAllNewsNum();
+    }
+
+    @Override
+    public List<News> getNewsInfoList_withoutTid(Integer num, Integer size) {
+        return newsMapper.getNewsInfoList_withoutTid((num - 1) * size, size);
+    }
 }

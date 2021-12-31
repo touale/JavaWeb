@@ -32,4 +32,10 @@ public interface RemoteNewsService {
 
     @PostMapping("/getNewsInfo")
     public News getNewsInfo(@RequestParam(name = "nid") Integer nid);
+
+    @PostMapping("/getAllNewsNum")
+    public Integer getAllNewsNum();
+
+    @PostMapping("/getNewsInfoList_withoutTid")
+    public List<News> getNewsInfoList_withoutTid(@RequestParam(name = "page") Integer page, @RequestParam(name = "size") Integer size);
 }
