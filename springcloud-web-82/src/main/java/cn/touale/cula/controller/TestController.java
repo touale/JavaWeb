@@ -29,5 +29,12 @@ public class TestController {
         return indexService.index(request);
     }
 
+    @RequestMapping(value = {"/news_read"})
+    public ModelAndView newsRead(HttpServletRequest request) {
+        return indexService.newsRead(request);
+    }
+
+
+
 
 }

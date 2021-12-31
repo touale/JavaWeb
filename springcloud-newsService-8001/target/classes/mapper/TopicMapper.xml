@@ -8,6 +8,12 @@
         FROM DbNews.TOPIC;
     </select>
 
+    <select id="getTnameByTid" resultType="String">
+        SELECT tname
+        FROM DbNews.TOPIC
+        where tid = #{tid};
+    </select>
+
 
 
 </mapper>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/homeWork.iml" filepath="$PROJECT_DIR$/homeWork.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-api-common/springcloud-api-common.iml" filepath="$PROJECT_DIR$/springcloud-api-common/springcloud-api-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-7001/springcloud-eureka-7001.iml" filepath="$PROJECT_DIR$/springcloud-eureka-7001/springcloud-eureka-7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-newsService-8001/springcloud-newsService-8001.iml" filepath="$PROJECT_DIR$/springcloud-newsService-8001/springcloud-newsService-8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-web-82/springcloud-web-82.iml" filepath="$PROJECT_DIR$/springcloud-web-82/springcloud-web-82.iml" />

@@ -12,6 +12,7 @@
         <module>springcloud-eureka-7001</module>
         <module>springcloud-newsService-8001</module>
         <module>springcloud-web-82</module>
+        <module>springcloud-api-common</module>
     </modules>
 
     <properties>

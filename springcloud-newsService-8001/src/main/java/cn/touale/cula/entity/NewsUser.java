@@ -1,7 +1,7 @@
 package cn.touale.cula.entity;
 
 
-public class NewsUsers {
+public class NewsUser {
 
     private long usid;
     private String uname;

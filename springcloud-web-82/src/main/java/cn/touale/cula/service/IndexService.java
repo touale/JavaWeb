@@ -13,4 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 @Service
 public interface IndexService {
     ModelAndView index(HttpServletRequest request);
+
+    ModelAndView newsRead(HttpServletRequest request);
 }

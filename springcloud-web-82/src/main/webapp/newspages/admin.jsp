@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
 
-<jsp:include page="console_element/top.jsp" />
+<jsp:include page="console_element/top" />
 <script language="javascript">
 	function clickdel() {
 		return confirm("删除请点击确认");

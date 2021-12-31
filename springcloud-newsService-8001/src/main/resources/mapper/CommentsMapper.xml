@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.touale.cula.mapper.CommentsMapper">
+
+
+    <select id="getCommentsByNid" resultType="cn.touale.cula.entity.Comments">
+        SELECT *
+        FROM DbNews.COMMENTS
+        where cnid = #{nid};
+    </select>
+
+    <insert id="addComment" parameterType="cn.touale.cula.entity.Comments">
+        INSERT INTO DbNews.COMMENTS (cnid, ccontent, cdate, cip, cauthor)
+        values (#{cnid},
+                #{ccontent},
+                #{cdate},
+                #{cip},
+                #{cauthor});
+    </insert>
+
+
+</mapper>

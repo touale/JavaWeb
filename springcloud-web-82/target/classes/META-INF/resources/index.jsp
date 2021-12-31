@@ -1,7 +1,7 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"
          isELIgnored="false" %>
 <%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
-<jsp:include page="index-elements/index_top.jsp"></jsp:include>
+<jsp:include page="index-elements/index_top"></jsp:include>
 <div id="container">
     <jsp:include page="index-elements/index_sidebar.jsp"/>
     <div class="main">
@@ -20,7 +20,7 @@
             <ul class="classlist">
                 <!-- 遍历显示 news list  -->
                 <c:forEach var="news" items="${newsList}">
-                    <li><a href="news_read.jsp?nid=${news.nid}"> ${news.ntitle} </a> <span>${news.ncreatedate}</span>
+                    <li><a href="news_read?nid=${news.nid}"> ${news.ntitle} </a> <span>${news.ncreatedate}</span>
                     </li>
                 </c:forEach>
 

@@ -13,4 +13,6 @@ import java.util.List;
 @Service
 public interface TopicService {
     List<Topic> getTopicList();
+
+    String getTnameByTid( Long tid);
 }

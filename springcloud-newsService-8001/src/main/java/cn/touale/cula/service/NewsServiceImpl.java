@@ -15,7 +15,7 @@ import java.util.List;
 @Service
 public class NewsServiceImpl implements NewsService {
     @Autowired
-    NewsMapper newsMapper;
+    private NewsMapper newsMapper;
 
     @Override
     public List<News> getNewsList() {

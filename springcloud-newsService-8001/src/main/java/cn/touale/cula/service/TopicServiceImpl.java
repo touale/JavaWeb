@@ -21,4 +21,9 @@ public class TopicServiceImpl implements TopicService{
     public List<Topic> getTopicList() {
         return topicMapper.getTopicList();
     }
+
+    @Override
+    public String getTnameByTid( Long tid) {
+        return topicMapper.getTnameByTid(tid);
+    }
 }

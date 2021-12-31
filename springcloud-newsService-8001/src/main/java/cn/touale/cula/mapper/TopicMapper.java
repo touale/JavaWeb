@@ -2,6 +2,7 @@ package cn.touale.cula.mapper;
 
 import cn.touale.cula.entity.Topic;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -13,4 +14,6 @@ import java.util.List;
 @Mapper
 public interface TopicMapper {
     List<Topic> getTopicList();
+
+    String getTnameByTid(@Param("tid") Long tid);
 }

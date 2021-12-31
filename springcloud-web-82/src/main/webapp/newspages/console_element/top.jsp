@@ -17,7 +17,7 @@
   </div>
 </div>
 <div id="admin_bar">
-  <div id="status">管理员： 登录  &#160;&#160;&#160;&#160; <a href="../util/do_logout.jsp">login out</a></div>
+  <div id="status">管理员： ${userName}  &#160;&#160;&#160;&#160; <a href="../logout">退出系统</a></div>
   <div id="channel"> </div>
 </div>
 </head>
