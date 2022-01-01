@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -74,6 +75,14 @@ public class MvServiceImpl implements MvService {
         Integer nid = Integer.parseInt(request.getParameter("nid"));
         News news = remoteNewsService.getNewsInfo(nid);
         List<Comments> commentsList = remoteCommentsService.getCommentsByNid(news.getNid());
+        List<Comments> commentsListNew = new ArrayList<>();
+
+        for(Comments comments : commentsList){
+            comments.setCcontent(
+                    comments.getCcontent().replace("\n","<br>")
+            );
+            commentsListNew.add(comments);
+        }
 
         ModelAndView mv = new ModelAndView();
         Integer hasComments = commentsList.size();
@@ -89,7 +98,7 @@ public class MvServiceImpl implements MvService {
                 .addObject("newsTitle", news.getNtitle())
                 .addObject("nauthor", news.getNauthor())
                 .addObject("tempnid", nid)
-                .addObject("commentsList", commentsList)
+                .addObject("commentsList", commentsListNew)
                 .addObject("hasComments", hasComments)
                 .addObject("cip", request.getRemoteAddr())
                 .addObject("currentUser", userName);
@@ -136,6 +145,15 @@ public class MvServiceImpl implements MvService {
         News news = remoteNewsService.getNewsInfo(nid);
         List<Topic> topicList = remoteTopicService.getTopicList();
         List<Comments> commentsList = remoteCommentsService.getCommentsByNid(news.getNid());
+        List<Comments> commentsListNew = new ArrayList<>();
+
+        for(Comments comments : commentsList){
+            comments.setCcontent(
+                    comments.getCcontent().replace("\n","<br>")
+            );
+            commentsListNew.add(comments);
+        }
+
         Integer hasComments = commentsList.size();
 
         ModelAndView mv = new ModelAndView();
@@ -183,6 +201,7 @@ public class MvServiceImpl implements MvService {
         }
 
         List<Topic> topicList = remoteTopicService.getTopicInfoList(page, size);
+
         ModelAndView mv = new ModelAndView();
         mv.addObject("topicList", topicList)
                 .addObject("cuurentPage", page)

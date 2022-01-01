@@ -9,28 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87543893-4307-4bde-a99b-aeae1f1e84f5" name="Changes" comment="version 2.6 opt service">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j_1_3_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/resources/log4j.properties" afterDir="false" />
+    <list default="true" id="87543893-4307-4bde-a99b-aeae1f1e84f5" name="Changes" comment="version 2.7 add log">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/springcloud-web-82.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/springcloud-web-82.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/BasicMvController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/BasicMvController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/UtilController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/UtilController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/interceptor/WebInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/interceptor/WebInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/errorpage/404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/error/404.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/errorpage/500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/error/500.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/MvServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/MvServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/news_read.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/news_read.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/newspages/news_modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/newspages/news_modify.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/BasicMvController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/BasicMvController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/UtilController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/UtilController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/META-INF/resources/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/META-INF/resources/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/META-INF/resources/news_read.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/META-INF/resources/news_read.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/interceptor/WebInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/interceptor/WebInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/MvServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/MvServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +85,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demoWeb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -274,8 +262,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.NewsApplication_8001" />
         <item itemvalue="Spring Boot.WebApplication_81" />
+        <item itemvalue="Spring Boot.NewsApplication_8001" />
         <item itemvalue="Spring Boot.EurekaApplication_7001" />
         <item itemvalue="HTTP Request.generated-requests | #4" />
         <item itemvalue="HTTP Request.generated-requests | #3" />
@@ -296,7 +284,8 @@
       <workItem from="1640854001317" duration="2485000" />
       <workItem from="1640856511887" duration="24833000" />
       <workItem from="1640913468730" duration="35500000" />
-      <workItem from="1640957198704" duration="23224000" />
+      <workItem from="1640957198704" duration="26367000" />
+      <workItem from="1641026479320" duration="3971000" />
     </task>
     <task id="LOCAL-00001" summary="add eureka">
       <created>1640841325280</created>
@@ -389,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641018788007</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="version 2.7 add log">
+      <created>1641020605225</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1641020605225</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,6 +428,7 @@
     <MESSAGE value="version 2.3 add update news and read newsInfo when updating,opt route when into admin manage files" />
     <MESSAGE value="version 2.5 everything is ok! add update news and comment" />
     <MESSAGE value="version 2.6 opt service" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2.6 opt service" />
+    <MESSAGE value="version 2.7 add log" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2.7 add log" />
   </component>
 </project>

@@ -2,6 +2,7 @@
          isELIgnored="false" %>
 <%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
 <jsp:include page="index-elements/index_top"></jsp:include>
+
 <div id="container">
     <jsp:include page="index-elements/index_sidebar.jsp"/>
     <div class="main">
