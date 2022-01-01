@@ -4,6 +4,7 @@
 <jsp:include page="index-elements/index_top"/>
 
 <link href="CSS/read.css" rel="stylesheet" type="text/css"/>
+<link href="/CSS/admin.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript">
     function formatText(name) {
@@ -87,6 +88,12 @@
                     </tr>
                 </table>
             </ul>
+
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <h1 id="opt_type" align="left">新闻评论：</h1>
+
             <ul class="classlist">
                 <table width="95%">
 

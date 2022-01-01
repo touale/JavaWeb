@@ -2,11 +2,12 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/index_bottom.jsp" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/index_rightbar.jsp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index-elements/index_rightbar.jsp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/springcloud-web-82/src/main/webapp/index_rightbar.jsp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/springcloud-web-82/src/main/webapp/newspages/console_element/bottom.jsp" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-web-82/src/main/webapp/newspages/console_element/left.jsp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-web-82/src/test/java/test/cn/touale/cula/controller/LoginControllerTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-web-82/src/test/java/test/cn/touale/cula/controller/UtilControllerTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-web-82/web/index-elements/index_bottom.html" charset="GBK" />
   </component>
 </project>

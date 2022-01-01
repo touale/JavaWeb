@@ -30,7 +30,8 @@ public class InterceptorConfig implements WebMvcConfigurer {
                 "/",
                 "/index-elements/**",
                 "/news_read",
-                "/favicon.ico"
+                "/favicon.ico",
+                "/util/do_add_comment"
         );
     }
 }
