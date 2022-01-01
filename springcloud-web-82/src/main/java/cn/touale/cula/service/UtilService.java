@@ -24,7 +24,6 @@ public interface UtilService {
 
     void doDealCommentByCid(Long cid);
 
-    void doDealCommentByCnid(Long cnid);
 
     ResultDTO doAddTopic(JSONObject jsonParam);
 

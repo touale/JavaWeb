@@ -19,7 +19,7 @@ import java.util.List;
  * @date 2021/12/31 2:25
  */
 @Service
-public class IndexServiceImpl implements IndexService {
+public class MvServiceImpl implements MvService {
 
     @Autowired
     private RemoteNewsService remoteNewsService;
@@ -200,7 +200,7 @@ public class IndexServiceImpl implements IndexService {
         String tname = request.getParameter("tname");
 
         ModelAndView mv = new ModelAndView();
-        mv.addObject("tid" ,tid)
+        mv.addObject("tid", tid)
                 .addObject("tname", tname);
         mv.setViewName("newspages/topic_modify");
         return mv;

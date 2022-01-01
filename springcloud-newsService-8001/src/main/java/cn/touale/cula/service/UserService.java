@@ -9,5 +9,5 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public interface UserService {
-    boolean tryLogin(String user,String pwd);
+    boolean tryLogin(String user, String pwd);
 }

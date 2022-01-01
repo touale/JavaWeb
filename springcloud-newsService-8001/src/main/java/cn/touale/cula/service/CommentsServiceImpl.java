@@ -15,7 +15,7 @@ import java.util.List;
  * @date 2021/12/31 9:40
  */
 @Service
-public class CommentsServiceImpl implements CommentsService{
+public class CommentsServiceImpl implements CommentsService {
     @Autowired
     private CommentsMapper commentsMapper;
 
@@ -27,7 +27,6 @@ public class CommentsServiceImpl implements CommentsService{
     @Override
     public Boolean addComment(Long cnid, String ccontent, String cip, String cauthor) {
 
-        // 傻子，直接传entity不就行
         Comments comment = new Comments();
         comment.setCnid(cnid);
         comment.setCcontent(ccontent);

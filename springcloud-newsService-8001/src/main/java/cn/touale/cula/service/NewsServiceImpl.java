@@ -23,8 +23,8 @@ public class NewsServiceImpl implements NewsService {
     }
 
     @Override
-    public List<News> getNewsInfoList(Integer num, Integer size,Integer tid) {
-        return newsMapper.getNewsInfoList((num - 1) * size, size,tid);
+    public List<News> getNewsInfoList(Integer num, Integer size, Integer tid) {
+        return newsMapper.getNewsInfoList((num - 1) * size, size, tid);
     }
 
     @Override
@@ -66,6 +66,5 @@ public class NewsServiceImpl implements NewsService {
     public Boolean dealNewsInfoByntid(Long ntid) {
         return newsMapper.dealNewsInfoByntid(ntid);
     }
-
 
 }

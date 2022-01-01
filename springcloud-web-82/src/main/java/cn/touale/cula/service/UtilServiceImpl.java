@@ -9,9 +9,6 @@ import cn.touale.cula.result.ResultDTO;
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.servlet.ModelAndView;
-
-import javax.servlet.http.HttpServletRequest;
 import java.sql.Timestamp;
 
 /**
@@ -36,15 +33,11 @@ public class UtilServiceImpl implements UtilService {
         String cip = jsonParam.getString("cip");
         String ccontent = jsonParam.getString("ccontent");
         ResultDTO resultDTO = new ResultDTO();
-        try {
-            if (remoteCommentsService.addComment(nid, ccontent, cip, cauthor)) {
-                resultDTO.buildSucc("评论成功");
-            } else {
-                resultDTO.buildFail("评论失败，请重试");
-            }
-        } catch (Exception e) {
-            System.out.println(e);
-            resultDTO.buildFail("系统异常，请稍后再试");
+
+        if (remoteCommentsService.addComment(nid, ccontent, cip, cauthor)) {
+            resultDTO.buildSucc("评论成功");
+        } else {
+            resultDTO.buildFail("评论失败，请重试");
         }
         return resultDTO;
     }
@@ -71,16 +64,13 @@ public class UtilServiceImpl implements UtilService {
         news.setNtid(ntid);
         news.setNtitle(jsonParam.getString("ntitle"));
 
-        try {
-            if (remoteNewsService.updateNewsInfo(news)) {
-                resultDTO.buildSucc("提交成功");
-            } else {
-                resultDTO.buildFail("提交失败，请重试");
-            }
-        } catch (Exception e) {
-            System.out.println(e);
-            resultDTO.buildFail("系统异常，请稍后再试");
+
+        if (remoteNewsService.updateNewsInfo(news)) {
+            resultDTO.buildSucc("提交成功");
+        } else {
+            resultDTO.buildFail("提交失败，请重试");
         }
+
         return resultDTO;
     }
 
@@ -97,16 +87,12 @@ public class UtilServiceImpl implements UtilService {
         news.setNtid(ntid);
         news.setNtitle(jsonParam.getString("ntitle"));
 
-        try {
-            if (remoteNewsService.addNewsInfo(news)) {
-                resultDTO.buildSucc("提交成功");
-            } else {
-                resultDTO.buildFail("提交失败，请重试");
-            }
-        } catch (Exception e) {
-            System.out.println(e);
-            resultDTO.buildFail("系统异常，请稍后再试");
+        if (remoteNewsService.addNewsInfo(news)) {
+            resultDTO.buildSucc("提交成功");
+        } else {
+            resultDTO.buildFail("提交失败，请重试");
         }
+
         return resultDTO;
     }
 
@@ -122,10 +108,6 @@ public class UtilServiceImpl implements UtilService {
         remoteCommentsService.dealCommentByCid(cid);
     }
 
-    @Override
-    public void doDealCommentByCnid(Long cnid) {
-        remoteCommentsService.dealCommentByCnid(cnid);
-    }
 
     @Override
     public ResultDTO doAddTopic(JSONObject jsonParam) {
@@ -134,16 +116,12 @@ public class UtilServiceImpl implements UtilService {
 
         ResultDTO resultDTO = new ResultDTO();
 
-        try {
-            if (remoteTopicService.addTopic(topic)) {
-                resultDTO.buildSucc("提交成功");
-            } else {
-                resultDTO.buildFail("提交失败，请重试");
-            }
-        } catch (Exception e) {
-            System.out.println(e);
-            resultDTO.buildFail("系统异常，请稍后再试");
+        if (remoteTopicService.addTopic(topic)) {
+            resultDTO.buildSucc("提交成功");
+        } else {
+            resultDTO.buildFail("提交失败，请重试");
         }
+
         return resultDTO;
 
     }
@@ -162,16 +140,12 @@ public class UtilServiceImpl implements UtilService {
         topic.setTname(jsonParam.getString("tname"));
         topic.setTid(Long.parseLong(jsonParam.getString("tid")));
 
-        try {
-            if (remoteTopicService.updateTopic(topic)) {
-                resultDTO.buildSucc("提交成功");
-            } else {
-                resultDTO.buildFail("提交失败，请重试");
-            }
-        } catch (Exception e) {
-            System.out.println(e);
-            resultDTO.buildFail("系统异常，请稍后再试");
+        if (remoteTopicService.updateTopic(topic)) {
+            resultDTO.buildSucc("提交成功");
+        } else {
+            resultDTO.buildFail("提交失败，请重试");
         }
+
         return resultDTO;
     }
 }

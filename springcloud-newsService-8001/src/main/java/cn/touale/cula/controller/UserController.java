@@ -21,8 +21,7 @@ public class UserController {
 
     @PostMapping("/doLogin")
     public Boolean doLogin(@RequestParam(name = "user") String user,
-                          @RequestParam(name="pwd")String pwd){
-        return userService.tryLogin(user,pwd);
+                           @RequestParam(name = "pwd") String pwd) {
+        return userService.tryLogin(user, pwd);
     }
-
 }

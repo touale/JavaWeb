@@ -25,10 +25,10 @@ public class UserServiceImpl implements UserService {
         String pwd = jsonParam.getString("upwd");
         ResultDTO resultDTO = new ResultDTO();
 
-        if(remoteUserService.doLogin(user,pwd)){
+        if (remoteUserService.doLogin(user, pwd)) {
             resultDTO.buildSucc("登录成功！");
-            request.getSession().setAttribute("users",user);
-        }else{
+            request.getSession().setAttribute("users", user);
+        } else {
             resultDTO.buildFail("登录失败,请检查账号密码是否有误！");
         }
         return resultDTO;

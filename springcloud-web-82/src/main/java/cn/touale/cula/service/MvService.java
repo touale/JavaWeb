@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
  * @date 2021/12/31 2:24
  */
 @Service
-public interface IndexService {
+public interface MvService {
     ModelAndView index(HttpServletRequest request);
 
     ModelAndView newsRead(HttpServletRequest request);

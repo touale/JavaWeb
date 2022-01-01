@@ -13,7 +13,7 @@ import java.util.List;
  * @date 2021/12/31 1:19
  */
 @Service
-public class TopicServiceImpl implements TopicService{
+public class TopicServiceImpl implements TopicService {
     @Autowired
     private TopicMapper topicMapper;
 
@@ -23,7 +23,7 @@ public class TopicServiceImpl implements TopicService{
     }
 
     @Override
-    public String getTnameByTid( Long tid) {
+    public String getTnameByTid(Long tid) {
         return topicMapper.getTnameByTid(tid);
     }
 
@@ -38,7 +38,7 @@ public class TopicServiceImpl implements TopicService{
     }
 
     @Override
-    public List<Topic> getTopicInfoList(Integer num,Integer size) {
+    public List<Topic> getTopicInfoList(Integer num, Integer size) {
         return topicMapper.getTopicInfoList((num - 1) * size, size);
     }
 

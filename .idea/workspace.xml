@@ -9,64 +9,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87543893-4307-4bde-a99b-aeae1f1e84f5" name="Changes" comment="version 2.3 add update news and read newsInfo when updating,opt route when into admin manage files">
+    <list default="true" id="87543893-4307-4bde-a99b-aeae1f1e84f5" name="Changes" comment="version 2.5 everything is ok! add update news and comment">
+      <change afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-api-common/src/main/java/cn/touale/cula/result/ResultDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-api-common/src/main/java/cn/touale/cula/result/ResultDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-api-common/target/classes/cn/touale/cula/result/ResultDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-api-common/target/classes/cn/touale/cula/result/ResultDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/controller/CommentsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/controller/CommentsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/controller/NewsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/controller/TopicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/controller/TopicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/mapper/CommentsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/mapper/CommentsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/mapper/NewsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/mapper/NewsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/entity/Comments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/entity/News.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/entity/NewsUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-api-common/src/main/java/cn/touale/cula/entity/NewsUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/entity/Topic.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/mapper/TopicMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/mapper/TopicMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/CommentsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/CommentsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/CommentsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/CommentsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/NewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/NewsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/NewsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/NewsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/TopicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/TopicService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/TopicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/TopicServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/resources/mapper/CommentsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/resources/mapper/CommentsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/resources/mapper/NewsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/resources/mapper/NewsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/resources/mapper/TopicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/resources/mapper/TopicMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/controller/CommentsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/controller/CommentsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/src/main/java/cn/touale/cula/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/controller/NewsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/controller/NewsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/controller/TopicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/controller/TopicController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/mapper/CommentsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/mapper/CommentsMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/mapper/NewsMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/mapper/NewsMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/mapper/TopicMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/mapper/TopicMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/service/CommentsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/service/CommentsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/entity/Comments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/entity/News.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/entity/NewsUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/entity/Topic.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/service/CommentsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/service/CommentsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/service/NewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/service/NewsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/service/NewsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/service/NewsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/service/TopicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/service/TopicService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/service/TopicServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/cn/touale/cula/service/TopicServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/mapper/CommentsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/mapper/CommentsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/mapper/NewsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/mapper/NewsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/mapper/TopicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/target/classes/mapper/TopicMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/api/RemoteCommentsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/api/RemoteCommentsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/api/RemoteNewsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/api/RemoteNewsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/api/RemoteTopicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/api/RemoteTopicService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/api/RemoteUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/api/RemoteUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/config/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/config/InterceptorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/BasicMvController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/UtilController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/UtilController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/entity/Comments.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-api-common/src/main/java/cn/touale/cula/entity/Comments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/entity/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-api-common/src/main/java/cn/touale/cula/entity/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/entity/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-api-common/src/main/java/cn/touale/cula/entity/Topic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/interceptor/WebInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/interceptor/WebInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/IndexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/IndexService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/IndexServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/IndexServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/IndexService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/MvService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/IndexServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/MvServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/UtilService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/UtilService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/UtilServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/UtilServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/newspages/console_element/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/newspages/console_element/left.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/newspages/news_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/newspages/news_add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/newspages/news_modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/newspages/news_modify.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/newspages/topic_add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/newspages/topic_add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/newspages/topic_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/newspages/topic_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/newspages/topic_modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/newspages/topic_modify.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/api/RemoteCommentsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/api/RemoteCommentsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/api/RemoteNewsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/api/RemoteNewsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/api/RemoteTopicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/api/RemoteTopicService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/config/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/config/InterceptorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/UserController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/UtilController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/UtilController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/entity/Comments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/entity/News.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/entity/Topic.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/interceptor/WebInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/interceptor/WebInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/IndexService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/IndexService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/IndexServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/IndexServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/IndexService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/IndexServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/UtilService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/UtilService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/UtilServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/UtilServiceImpl.class" afterDir="false" />
     </list>
@@ -81,8 +70,8 @@
         <option value="jsf" />
         <option value="HTML File" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -135,7 +124,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/entity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demoWeb" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -312,8 +301,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.WebApplication_81" />
         <item itemvalue="Spring Boot.NewsApplication_8001" />
+        <item itemvalue="Spring Boot.WebApplication_81" />
         <item itemvalue="Spring Boot.EurekaApplication_7001" />
         <item itemvalue="HTTP Request.generated-requests | #4" />
         <item itemvalue="HTTP Request.generated-requests | #3" />
@@ -334,7 +323,7 @@
       <workItem from="1640854001317" duration="2485000" />
       <workItem from="1640856511887" duration="24833000" />
       <workItem from="1640913468730" duration="35500000" />
-      <workItem from="1640957198704" duration="16677000" />
+      <workItem from="1640957198704" duration="21558000" />
     </task>
     <task id="LOCAL-00001" summary="add eureka">
       <created>1640841325280</created>
@@ -413,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640954416957</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="version 2.5 everything is ok! add update news and comment">
+      <created>1641006836551</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641006836551</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,6 +450,7 @@
     <MESSAGE value="version 2.1 opt packet" />
     <MESSAGE value="version 2.2 add index, admin root and write comments" />
     <MESSAGE value="version 2.3 add update news and read newsInfo when updating,opt route when into admin manage files" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2.3 add update news and read newsInfo when updating,opt route when into admin manage files" />
+    <MESSAGE value="version 2.5 everything is ok! add update news and comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2.5 everything is ok! add update news and comment" />
   </component>
 </project>

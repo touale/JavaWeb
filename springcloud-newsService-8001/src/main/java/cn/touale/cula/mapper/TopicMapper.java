@@ -28,5 +28,4 @@ public interface TopicMapper {
 
     boolean updateTopic(Topic topic);
 
-
 }

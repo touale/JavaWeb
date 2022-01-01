@@ -15,6 +15,8 @@ import javax.servlet.http.HttpServletRequest;
 @Service
 public interface UserService {
     ResultDTO doLogin(JSONObject jsonParam, HttpServletRequest request);
-    ModelAndView getLoginStatus(HttpServletRequest request,String name);
+
+    ModelAndView getLoginStatus(HttpServletRequest request, String name);
+
     void doLogout(HttpServletRequest request);
 }

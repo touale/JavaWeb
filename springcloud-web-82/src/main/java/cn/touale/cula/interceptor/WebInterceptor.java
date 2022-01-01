@@ -21,7 +21,7 @@ public class WebInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         System.out.println("preHandle：在进入拦截器，执行Controller之前调用");
-        System.out.println("拦截"+request.getRequestURL());
+        System.out.println("拦截" + request.getRequestURL());
 
 
         Object object = request.getSession().getAttribute("users");
@@ -37,9 +37,8 @@ public class WebInterceptor implements HandlerInterceptor {
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
         // System.out.println("postHandle：执行完Controller逻辑，在Controller的return ModelAndView 之前执行，可以操控ModelAndView的数据");
-        //System.out.println("postHandle：修改了ModelAndView中的name值");
+        // System.out.println("postHandle：修改了ModelAndView中的name值");
 
-        System.out.println(response.getStatus());
         if (response.getStatus() == 500) {
             modelAndView.setViewName("errorpage/500");
         } else if (response.getStatus() == 404) {
@@ -49,8 +48,7 @@ public class WebInterceptor implements HandlerInterceptor {
 
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
-        System.out.println("afterCompletion：Controller的Return之后，Filter返回给客户端之前（应该是FilterAfter方法执行前）");
-
+        //System.out.println("afterCompletion：Controller的Return之后，Filter返回给客户端之前（应该是FilterAfter方法执行前）");
     }
 
 }

@@ -73,7 +73,6 @@ public class NewsController {
         return newsService.addNewsInfo(news);
     }
 
-
     @PostMapping("/dealNewsInfoByntid")
     public boolean dealNewsInfoByntid(@RequestParam(name = "ntid") Long ntid) {
         return newsService.dealNewsInfoByntid(ntid);

@@ -46,19 +46,18 @@ public class TopicController {
 
     @PostMapping("/getTopicInfoList")
     public List<Topic> getTopicInfoList(@RequestParam(name = "page") Integer page,
-                                       @RequestParam(name = "size") Integer size) {
+                                        @RequestParam(name = "size") Integer size) {
         return topicService.getTopicInfoList(page, size);
     }
 
     @PostMapping("/dealTopic")
-    public boolean dealTopic(@RequestParam(name = "tid") Long tid){
+    public boolean dealTopic(@RequestParam(name = "tid") Long tid) {
         return topicService.dealTopic(tid);
     }
 
     @PostMapping("/updateTopic")
-    public boolean updateTopic(@RequestBody Topic topic){
+    public boolean updateTopic(@RequestBody Topic topic) {
         return topicService.updateTopic(topic);
     }
-
 
 }

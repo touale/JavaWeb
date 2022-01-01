@@ -17,5 +17,5 @@ import org.springframework.web.bind.annotation.RestController;
 public interface RemoteUserService {
     @PostMapping("/doLogin")
     public Boolean doLogin(@RequestParam(name = "user") String user,
-                           @RequestParam(name="pwd")String pwd);
+                           @RequestParam(name = "pwd") String pwd);
 }
