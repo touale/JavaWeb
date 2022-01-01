@@ -39,5 +39,38 @@
             , #{endRow};
     </select>
 
+    <update id="updateNewsInfo" parameterType="cn.touale.cula.entity.News">
+        UPDATE DbNews.NEWS t
+        SET t.ntid     = #{ntid},
+            t.ntitle   = #{ntitle},
+            t.nauthor  = #{nauthor},
+            t.ncontent = #{ncontent},
+            t.nsummary = #{nsummary}
+        WHERE t.nid = #{nid};
+
+    </update>
+
+    <delete id="dealNewsInfo" parameterType="Long">
+        delete
+        from DbNews.NEWS
+        where nid = #{nid};
+    </delete>
+
+    <insert id="addNewsInfo" parameterType="cn.touale.cula.entity.News">
+        Insert into DbNews.NEWS (ntid, ntitle, nauthor, ncontent, nsummary, ncreatedate)
+        values (#{ntid},
+                #{ntitle},
+                #{nauthor},
+                #{ncontent},
+                #{nsummary},
+                #{ncreatedate})
+    </insert>
+
+    <delete id="dealNewsInfoByntid" parameterType="Long">
+        delete
+        from DbNews.NEWS
+        where ntid = #{ntid};
+    </delete>
+
 
 </mapper>

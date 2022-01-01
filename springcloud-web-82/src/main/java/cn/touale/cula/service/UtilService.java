@@ -15,7 +15,22 @@ import javax.servlet.http.HttpServletRequest;
 @Service
 public interface UtilService {
     ResultDTO doAddComment(Long nid, JSONObject jsonParam);
-    ModelAndView buildMv(HttpServletRequest request,String name);
+
+    ResultDTO doUpdateNews(JSONObject jsonParam);
+
+    ResultDTO doAddNews(JSONObject jsonParam);
+
+    void doDealNews(Long nid);
+
+    void doDealCommentByCid(Long cid);
+
+    void doDealCommentByCnid(Long cnid);
+
+    ResultDTO doAddTopic(JSONObject jsonParam);
+
+    void doDealTopic(Long tid);
+
+    ResultDTO doUpdateTopic(JSONObject jsonParam);
 
 
 }

@@ -34,5 +34,15 @@ public class CommentsController {
         return commentsService.addComment(cnid, ccontent, cip, cauthor);
     }
 
+    @PostMapping("/dealCommentByCnid")
+    public Boolean dealCommentByCnid(@RequestParam(name = "cnid") Long cnid) {
+        return commentsService.dealCommentByCnid(cnid);
+    }
+
+    @PostMapping("/dealCommentByCid")
+    public Boolean dealCommentByCid(@RequestParam(name = "cid") Long cid) {
+        return commentsService.dealCommentByCid(cid);
+    }
+
 
 }

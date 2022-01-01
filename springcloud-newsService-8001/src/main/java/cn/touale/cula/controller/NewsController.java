@@ -31,7 +31,9 @@ public class NewsController {
     }
 
     @PostMapping("/getNewsInfoList")
-    public List<News> getNewsInfoList(@RequestParam(name = "page") Integer page, @RequestParam(name = "size") Integer size, @RequestParam(name = "tid") Integer tid) {
+    public List<News> getNewsInfoList(@RequestParam(name = "page") Integer page,
+                                      @RequestParam(name = "size") Integer size,
+                                      @RequestParam(name = "tid") Integer tid) {
         return newsService.getNewsInfoList(page, size, tid);
     }
 
@@ -51,7 +53,29 @@ public class NewsController {
     }
 
     @PostMapping("/getNewsInfoList_withoutTid")
-    public List<News> getNewsInfoList_withoutTid(@RequestParam(name = "page") Integer page, @RequestParam(name = "size") Integer size) {
+    public List<News> getNewsInfoList_withoutTid(@RequestParam(name = "page") Integer page,
+                                                 @RequestParam(name = "size") Integer size) {
         return newsService.getNewsInfoList_withoutTid(page, size);
+    }
+
+    @PostMapping("/updateNewsInfo")
+    public Boolean updateNewsInfo(@RequestBody News news) {
+        return newsService.updateNewsInfo(news);
+    }
+
+    @PostMapping("/dealNewsInfo")
+    public boolean dealNewsInfo(@RequestParam(name = "nid") Long nid) {
+        return newsService.dealNewsInfo(nid);
+    }
+
+    @PostMapping("/addNewsInfo")
+    public boolean addNewsInfo(@RequestBody News news) {
+        return newsService.addNewsInfo(news);
+    }
+
+
+    @PostMapping("/dealNewsInfoByntid")
+    public boolean dealNewsInfoByntid(@RequestParam(name = "ntid") Long ntid) {
+        return newsService.dealNewsInfoByntid(ntid);
     }
 }

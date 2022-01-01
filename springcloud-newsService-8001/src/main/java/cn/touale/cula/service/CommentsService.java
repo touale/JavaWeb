@@ -1,6 +1,7 @@
 package cn.touale.cula.service;
 
 import cn.touale.cula.entity.Comments;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,5 +16,9 @@ import java.util.List;
 public interface CommentsService {
     List<Comments> getCommentsByNid(Long nid);
 
-    Boolean addComment(Long cnid,String ccontent,String cip,String cauthor);
+    Boolean addComment(Long cnid, String ccontent, String cip, String cauthor);
+
+    Boolean dealCommentByCnid(Long cnid);
+
+    Boolean dealCommentByCid(Long cid);
 }

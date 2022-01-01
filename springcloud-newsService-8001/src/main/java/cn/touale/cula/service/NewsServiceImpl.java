@@ -46,4 +46,26 @@ public class NewsServiceImpl implements NewsService {
     public List<News> getNewsInfoList_withoutTid(Integer num, Integer size) {
         return newsMapper.getNewsInfoList_withoutTid((num - 1) * size, size);
     }
+
+    @Override
+    public boolean updateNewsInfo(News news) {
+        return newsMapper.updateNewsInfo(news);
+    }
+
+    @Override
+    public boolean dealNewsInfo(Long nid) {
+        return newsMapper.dealNewsInfo(nid);
+    }
+
+    @Override
+    public boolean addNewsInfo(News news) {
+        return newsMapper.addNewsInfo(news);
+    }
+
+    @Override
+    public Boolean dealNewsInfoByntid(Long ntid) {
+        return newsMapper.dealNewsInfoByntid(ntid);
+    }
+
+
 }

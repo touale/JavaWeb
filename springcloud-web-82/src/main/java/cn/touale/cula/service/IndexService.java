@@ -19,4 +19,12 @@ public interface IndexService {
     ModelAndView newspages_admin(HttpServletRequest request);
 
     ModelAndView newspages_news_modify(HttpServletRequest request);
+
+    ModelAndView buildMv(HttpServletRequest request,String name);
+
+    ModelAndView newspages_news_add(HttpServletRequest request);
+
+    ModelAndView newspages_topic_list(HttpServletRequest request);
+
+    ModelAndView newspages_topic_modify(HttpServletRequest request);
 }

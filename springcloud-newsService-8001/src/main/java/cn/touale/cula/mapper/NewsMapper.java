@@ -25,4 +25,11 @@ public interface NewsMapper {
 
     List<News> getNewsInfoList_withoutTid(@Param("startRow") Integer startRow, @Param("endRow") Integer endRow);
 
+    Boolean updateNewsInfo(News news);
+
+    Boolean dealNewsInfo(@Param("nid") Long nid);
+
+    Boolean addNewsInfo(News news);
+
+    Boolean dealNewsInfoByntid(@Param("ntid") Long ntid);
 }

@@ -2,9 +2,9 @@
          isELIgnored="false" %>
 <div id="opt_list">
   <ul>
-    <li><a href="/newspages/news_add.jsp">添加新闻</a></li>
+    <li><a href="/newspages/news_add">添加新闻</a></li>
     <li><a href="/newspages/admin">编辑新闻</a></li>
-    <li><a href="/newspages/topic_add.jsp">添加主题</a></li>
-    <li><a href="/newspages/topic_list.jsp">编辑主题</a></li>
+    <li><a href="/newspages/topic_add">添加主题</a></li>
+    <li><a href="/newspages/topic_list">编辑主题</a></li>
   </ul>
 </div>

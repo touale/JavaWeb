@@ -25,4 +25,10 @@ public interface RemoteCommentsService {
                               @RequestParam(name = "ccontent") String ccontent,
                               @RequestParam(name = "cip") String cip,
                               @RequestParam(name = "cauthor") String cauthor);
+
+    @PostMapping("/dealCommentByCnid")
+    public Boolean dealCommentByCnid(@RequestParam(name = "cnid") Long cnid);
+
+    @PostMapping("/dealCommentByCid")
+    public Boolean dealCommentByCid(@RequestParam(name = "cid") Long cid);
 }

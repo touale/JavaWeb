@@ -15,7 +15,7 @@ import java.util.List;
 public interface NewsService {
     List<News> getNewsList();
 
-    List<News> getNewsInfoList(Integer num,Integer size,Integer tid);
+    List<News> getNewsInfoList(Integer num, Integer size, Integer tid);
 
     Integer getNewsNum(Integer tid);
 
@@ -23,5 +23,13 @@ public interface NewsService {
 
     Integer getAllNewsNum();
 
-    List<News> getNewsInfoList_withoutTid(Integer num,Integer size);
+    List<News> getNewsInfoList_withoutTid(Integer num, Integer size);
+
+    boolean updateNewsInfo(News news);
+
+    boolean dealNewsInfo(Long nid);
+
+    boolean addNewsInfo(News news);
+
+    Boolean dealNewsInfoByntid(Long ntid);
 }

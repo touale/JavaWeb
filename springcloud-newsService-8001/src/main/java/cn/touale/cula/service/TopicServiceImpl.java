@@ -26,4 +26,29 @@ public class TopicServiceImpl implements TopicService{
     public String getTnameByTid( Long tid) {
         return topicMapper.getTnameByTid(tid);
     }
+
+    @Override
+    public Long getTidByTname(String tname) {
+        return topicMapper.getTidByTname(tname);
+    }
+
+    @Override
+    public boolean addTopic(Topic topic) {
+        return topicMapper.addTopic(topic);
+    }
+
+    @Override
+    public List<Topic> getTopicInfoList(Integer num,Integer size) {
+        return topicMapper.getTopicInfoList((num - 1) * size, size);
+    }
+
+    @Override
+    public boolean dealTopic(Long tid) {
+        return topicMapper.dealTopic(tid);
+    }
+
+    @Override
+    public boolean updateTopic(Topic topic) {
+        return topicMapper.updateTopic(topic);
+    }
 }

@@ -46,7 +46,6 @@ public class IndexServiceImpl implements IndexService {
         }
 
         Integer total = remoteNewsService.getNewsNum(tid);
-
         try {
             page = Integer.parseInt(page_no);
         } catch (Exception e) {
@@ -125,7 +124,7 @@ public class IndexServiceImpl implements IndexService {
                 .addObject("cuurentPage", page)
                 .addObject("totalPage", total)
                 .addObject("topicList", topicList)
-                .addObject("exitId",topicList.size());
+                .addObject("exitId", topicList.size());
 
         mv.setViewName("newspages/admin");
         return mv;
@@ -140,8 +139,8 @@ public class IndexServiceImpl implements IndexService {
         Integer hasComments = commentsList.size();
 
         ModelAndView mv = new ModelAndView();
-        mv.addObject("newsInfo",news )
-                .addObject("topicList",topicList)
+        mv.addObject("newsInfo", news)
+                .addObject("topicList", topicList)
                 .addObject("commentsList", commentsList)
                 .addObject("hasComments", hasComments);
 
@@ -149,5 +148,62 @@ public class IndexServiceImpl implements IndexService {
         return mv;
     }
 
+    @Override
+    public ModelAndView buildMv(HttpServletRequest request, String name) {
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName(name);
+        return mv;
+    }
+
+    @Override
+    public ModelAndView newspages_news_add(HttpServletRequest request) {
+        List<Topic> topicList = remoteTopicService.getTopicList();
+        ModelAndView mv = new ModelAndView();
+        mv.addObject("topicList", topicList);
+        mv.setViewName("newspages/news_add");
+        return mv;
+    }
+
+    @Override
+    public ModelAndView newspages_topic_list(HttpServletRequest request) {
+        String page_no = request.getParameter("page_no");
+        Integer size = 10;
+        Integer page = null;
+
+        Integer total = remoteTopicService.getTopicList().size();
+        try {
+            page = Integer.parseInt(page_no);
+        } catch (Exception e) {
+            System.out.println(e);
+            page = 1;
+        } finally {
+            total = total % size == 0 ? total / size : total / size + 1;
+            page = page < total ? page : total;
+            page = page > 0 ? page : 1;
+        }
+
+        List<Topic> topicList = remoteTopicService.getTopicInfoList(page, size);
+        ModelAndView mv = new ModelAndView();
+        mv.addObject("topicList", topicList)
+                .addObject("cuurentPage", page)
+                .addObject("totalPage", total);
+        mv.setViewName("newspages/topic_list");
+        return mv;
+    }
+
+    @Override
+    public ModelAndView newspages_topic_modify(HttpServletRequest request) {
+        /**
+         * tid=3&tname=军事
+         */
+        String tid = request.getParameter("tid");
+        String tname = request.getParameter("tname");
+
+        ModelAndView mv = new ModelAndView();
+        mv.addObject("tid" ,tid)
+                .addObject("tname", tname);
+        mv.setViewName("newspages/topic_modify");
+        return mv;
+    }
 
 }

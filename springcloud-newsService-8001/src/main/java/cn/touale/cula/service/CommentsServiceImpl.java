@@ -27,6 +27,7 @@ public class CommentsServiceImpl implements CommentsService{
     @Override
     public Boolean addComment(Long cnid, String ccontent, String cip, String cauthor) {
 
+        // 傻子，直接传entity不就行
         Comments comment = new Comments();
         comment.setCnid(cnid);
         comment.setCcontent(ccontent);
@@ -34,5 +35,15 @@ public class CommentsServiceImpl implements CommentsService{
         comment.setCdate(new Timestamp(System.currentTimeMillis()));
         comment.setCauthor(cauthor);
         return commentsMapper.addComment(comment);
+    }
+
+    @Override
+    public Boolean dealCommentByCnid(Long cnid) {
+        return commentsMapper.dealCommentByCnid(cnid);
+    }
+
+    @Override
+    public Boolean dealCommentByCid(Long cid) {
+        return commentsMapper.dealCommentByCid(cid);
     }
 }

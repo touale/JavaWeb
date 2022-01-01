@@ -41,7 +41,7 @@ public class UserController {
 
     @RequestMapping(value = {"/login"})
     public ModelAndView login(HttpServletRequest request) {
-        return utilService.buildMv(request, "login");
+        return indexService.buildMv(request, "login");
     }
 
     @RequestMapping(value = {"/logout"})
@@ -60,6 +60,46 @@ public class UserController {
         return indexService.newspages_news_modify(request);
     }
 
+    @RequestMapping(value = {"newspages/news_add"})
+    public ModelAndView newspages_news_add(HttpServletRequest request) {
+        return indexService.newspages_news_add(request);
+    }
+
+
+    @GetMapping(value = "util/do_delete_news")
+    public String doDeleteNews(@RequestParam(name = "nid") Long nid) {
+        utilService.doDealNews(nid);
+        return "redirect:/newspages/admin";
+    }
+
+    @GetMapping(value = "util/do_delete_comments")
+    public String doDeleteComments(@RequestParam(name = "cid") Long cid,
+                                   @RequestParam(name = "cnid") Long cnid) {
+        utilService.doDealCommentByCid(cid);
+        return "redirect:/newspages/news_modify?nid=" + cnid;
+    }
+
+    @GetMapping(value = "util/do_delete_topics")
+    public String doDeleteTopics(@RequestParam(name = "tid") Long tid,
+                                 @RequestParam(name = "page_no") Integer page_no) {
+        utilService.doDealTopic(tid);
+        return "redirect:/newspages/topic_list?page_no="+page_no;
+    }
+
+    @GetMapping(value = "newspages/topic_add")
+    public ModelAndView doDeleteTopic(HttpServletRequest request) {
+        return indexService.buildMv(request, "newspages/topic_add");
+    }
+
+    @GetMapping(value = "newspages/topic_list")
+    public ModelAndView newspages_topic_list(HttpServletRequest request) {
+        return indexService.newspages_topic_list(request);
+    }
+
+    @GetMapping(value ="newspages/topic_modify")
+    public ModelAndView newspages_topic_modify(HttpServletRequest request) {
+        return indexService.newspages_topic_modify(request);
+    }
 
     @PostMapping(value = "/doLogin", produces = "application/json;charset=UTF-8")
     public @ResponseBody

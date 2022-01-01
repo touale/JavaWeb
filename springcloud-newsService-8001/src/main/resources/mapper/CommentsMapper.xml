@@ -18,5 +18,17 @@
                 #{cauthor});
     </insert>
 
+    <delete id="dealCommentByCnid" parameterType="Long">
+        delete
+        from DbNews.COMMENTS
+        where cnid = #{cnid};
+    </delete>
+
+    <delete id="dealCommentByCid" parameterType="Long">
+        delete
+        from DbNews.COMMENTS
+        where cid = #{cid};
+    </delete>
+
 
 </mapper>

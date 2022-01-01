@@ -2,10 +2,7 @@ package cn.touale.cula.api;
 
 import cn.touale.cula.entity.News;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -25,7 +22,9 @@ public interface RemoteNewsService {
     public List<News> getNewsList();
 
     @PostMapping("/getNewsInfoList")
-    public List<News> getNewsInfoList(@RequestParam(name = "page") Integer page, @RequestParam(name = "size") Integer size, @RequestParam(name = "tid") Integer tid);
+    public List<News> getNewsInfoList(@RequestParam(name = "page") Integer page,
+                                      @RequestParam(name = "size") Integer size,
+                                      @RequestParam(name = "tid") Integer tid);
 
     @PostMapping("/getNewsNum")
     public Integer getNewsNum(@RequestParam(name = "tid") Integer tid);
@@ -37,5 +36,20 @@ public interface RemoteNewsService {
     public Integer getAllNewsNum();
 
     @PostMapping("/getNewsInfoList_withoutTid")
-    public List<News> getNewsInfoList_withoutTid(@RequestParam(name = "page") Integer page, @RequestParam(name = "size") Integer size);
+    public List<News> getNewsInfoList_withoutTid(@RequestParam(name = "page") Integer page,
+                                                 @RequestParam(name = "size") Integer size);
+
+    @PostMapping("/updateNewsInfo")
+    public Boolean updateNewsInfo(@RequestBody News news);
+
+    @PostMapping("/dealNewsInfo")
+    public boolean dealNewsInfo(@RequestParam(name = "nid") Long nid);
+
+    @PostMapping("/addNewsInfo")
+    public boolean addNewsInfo(@RequestBody News news);
+
+    @PostMapping("/dealNewsInfoByntid")
+    public boolean dealNewsInfoByntid(@RequestParam(name = "ntid") Long ntid);
+
+
 }

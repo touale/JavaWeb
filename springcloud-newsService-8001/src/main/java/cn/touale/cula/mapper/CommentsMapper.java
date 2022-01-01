@@ -16,4 +16,8 @@ public interface CommentsMapper {
     List<Comments> getCommentsByNid(@Param("nid") Long nid);
 
     Boolean addComment(Comments comment);
+
+    Boolean dealCommentByCnid(@Param("cnid") Long cnid);
+
+    Boolean dealCommentByCid(@Param("cid") Long cid);
 }

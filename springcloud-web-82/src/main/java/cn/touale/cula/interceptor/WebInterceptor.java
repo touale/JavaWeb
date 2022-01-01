@@ -41,9 +41,9 @@ public class WebInterceptor implements HandlerInterceptor {
 
         System.out.println(response.getStatus());
         if (response.getStatus() == 500) {
-            modelAndView.setViewName("/errorpage/500");
+            modelAndView.setViewName("errorpage/500");
         } else if (response.getStatus() == 404) {
-            modelAndView.setViewName("/errorpage/404");
+            modelAndView.setViewName("errorpage/404");
         }
     }
 
