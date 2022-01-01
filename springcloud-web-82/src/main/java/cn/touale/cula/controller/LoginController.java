@@ -3,6 +3,7 @@ package cn.touale.cula.controller;
 import cn.touale.cula.result.ResultDTO;
 import cn.touale.cula.service.UserService;
 import com.alibaba.fastjson.JSONObject;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -23,6 +24,8 @@ public class LoginController {
     @Autowired
     private UserService userService;
 
+    Logger logger = Logger.getLogger(LoginController.class);
+
     @PostMapping(value = "/doLogin", produces = "application/json;charset=UTF-8")
     public @ResponseBody
     ResultDTO doLogin(@RequestBody JSONObject jsonParam, HttpServletRequest request) {
@@ -30,8 +33,7 @@ public class LoginController {
         try {
             return userService.doLogin(jsonParam, request);
         } catch (Exception e) {
-            // ToDo
-            //Log
+            logger.error("系统登录异常",e);
             resultDTO.buildFail("系统登录异常！");
         }
         return resultDTO;
@@ -42,8 +44,7 @@ public class LoginController {
         try {
             userService.doLogout(request);
         }catch (Exception e){
-            // ToDo
-            //Log
+            logger.error("系统退出异常",e);
         }
         return "redirect:/index";
     }

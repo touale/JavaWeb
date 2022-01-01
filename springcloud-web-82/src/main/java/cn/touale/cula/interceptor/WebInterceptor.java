@@ -38,12 +38,11 @@ public class WebInterceptor implements HandlerInterceptor {
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
         // System.out.println("postHandle：执行完Controller逻辑，在Controller的return ModelAndView 之前执行，可以操控ModelAndView的数据");
         // System.out.println("postHandle：修改了ModelAndView中的name值");
-
-        if (response.getStatus() == 500) {
-            modelAndView.setViewName("errorpage/500");
-        } else if (response.getStatus() == 404) {
-            modelAndView.setViewName("errorpage/404");
-        }
+//        if (response.getStatus() == 500) {
+//           // modelAndView.setViewName("error/500");
+//        } else if (response.getStatus() == 404) {
+//            //modelAndView.setViewName("error/404");
+//        }
     }
 
     @Override

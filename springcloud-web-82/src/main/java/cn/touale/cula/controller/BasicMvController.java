@@ -3,6 +3,7 @@ package cn.touale.cula.controller;
 import cn.touale.cula.service.MvService;
 import cn.touale.cula.service.UserService;
 import cn.touale.cula.service.UtilService;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -27,11 +28,15 @@ public class BasicMvController {
     @Autowired
     private MvService mvService;
 
+    Logger logger = Logger.getLogger(BasicMvController.class);
+
+
     @RequestMapping(value = {"/index", "/"})
     public ModelAndView index(HttpServletRequest request) {
         try {
             return mvService.index(request);
         } catch (Exception e) {
+            logger.error("首页加载错误", e);
             return mvService.buildMv(request, "index");
         }
     }
@@ -47,6 +52,7 @@ public class BasicMvController {
         try {
             return userService.getLoginStatus(request, "index-elements/index_top");
         } catch (Exception e) {
+            logger.error("首页头部元素错误", e);
             return mvService.buildMv(request, "index-elements/index_top");
         }
     }
@@ -55,8 +61,8 @@ public class BasicMvController {
     public ModelAndView newspages_admin(HttpServletRequest request) {
         try {
             return mvService.newspages_admin(request);
-        } catch (
-                Exception e) {
+        } catch (Exception e) {
+            logger.error("管理首页异常", e);
             return mvService.buildMv(request, "newspages/admin");
         }
     }
@@ -71,6 +77,7 @@ public class BasicMvController {
         try {
             return userService.getLoginStatus(request, "newspages/console_element/top");
         } catch (Exception e) {
+            logger.error("管理首页头部元素异常", e);
             return mvService.buildMv(request, "newspages/console_element/top");
         }
     }
@@ -80,6 +87,7 @@ public class BasicMvController {
         try {
             return mvService.newspages_news_modify(request);
         } catch (Exception e) {
+            logger.error("管理页新闻修改页异常", e);
             return mvService.buildMv(request, "newspages/news_modify");
         }
     }
@@ -89,6 +97,7 @@ public class BasicMvController {
         try {
             return mvService.newspages_news_add(request);
         } catch (Exception e) {
+            logger.error("管理页添加新闻页异常", e);
             return mvService.buildMv(request, "newspages/news_add");
         }
     }
@@ -98,7 +107,7 @@ public class BasicMvController {
         try {
             utilService.doDealNews(nid);
         } catch (Exception e) {
-            // ToDo
+            logger.error("管理页删除新闻页异常", e);
         }
         return "redirect:/newspages/admin";
     }
@@ -109,7 +118,7 @@ public class BasicMvController {
         try {
             utilService.doDealCommentByCid(cid);
         } catch (Exception e) {
-            // ToDo
+            logger.error("管理页删除评论页异常", e);
         }
         return "redirect:/newspages/news_modify?nid=" + cnid;
     }
@@ -120,7 +129,7 @@ public class BasicMvController {
         try {
             utilService.doDealTopic(tid);
         } catch (Exception e) {
-            // ToDo
+            logger.error("管理页删除主题页异常", e);
         }
         return "redirect:/newspages/topic_list?page_no=" + page_no;
     }
@@ -135,7 +144,7 @@ public class BasicMvController {
         try {
             return mvService.newspages_topic_list(request);
         } catch (Exception e) {
-            // ToDo
+            logger.error("管理页主题页异常", e);
             return mvService.buildMv(request, "newspages/topic_list");
         }
     }
@@ -145,7 +154,7 @@ public class BasicMvController {
         try {
             return mvService.newspages_topic_modify(request);
         } catch (Exception e) {
-            // ToDo
+            logger.error("管理页修改主题页异常", e);
             return mvService.buildMv(request, "newspages/topic_modify");
         }
     }

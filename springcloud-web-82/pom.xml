@@ -21,11 +21,6 @@
     </properties>
 
     <dependencies>
-        <!-- jsp -->
-<!--        <dependency>-->
-<!--            <groupId>javax.servlet</groupId>-->
-<!--            <artifactId>jstl</artifactId>-->
-<!--        </dependency>-->
 
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -34,12 +29,10 @@
             <systemPath>${project.basedir}/lib/jstl-1.2.jar</systemPath>
         </dependency>
 
-
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
             <scope>provided</scope>
-
         </dependency>
 
         <dependency>
@@ -55,44 +48,24 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
 
-        <!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-tomcat</artifactId>-->
+        <!-- 重新导入log4j -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j</artifactId>
+            <version>1.3.8.RELEASE</version>
+        </dependency>
 
-<!--&lt;!&ndash;            <scope>provided</scope>&ndash;&gt;-->
-<!--        </dependency>-->
-
-
-
-        <!-- 引入SpringBoot内嵌Tomcat对jsp的解析依赖，不添加这个解析不了jsp -->
-<!--        <dependency>-->
-<!--            <groupId>org.apache.tomcat.embed</groupId>-->
-<!--            <artifactId>tomcat-embed-jasper</artifactId>-->
-<!--        </dependency>-->
-
-
-<!--        <dependency>-->
-<!--            <groupId>javax.servlet</groupId>-->
-<!--            <artifactId>jstl</artifactId>-->
-<!--            <scope>compile</scope>-->
-<!--        </dependency>-->
-
-        <!--        <dependency>-->
-        <!--            <groupId>javax.servlet</groupId>-->
-        <!--            <artifactId>javax.servlet-api</artifactId>-->
-        <!--            <version>4.0.1</version>-->
-        <!--        </dependency>-->
-        <!--        <dependency>-->
-        <!--            <groupId>javax.servlet.jsp</groupId>-->
-        <!--            <artifactId>javax.servlet.jsp-api</artifactId>-->
-        <!--            <version>2.3.3</version>-->
-        <!--        </dependency>-->
-
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-web</artifactId>-->
-<!--        </dependency>-->
 
     </dependencies>
 

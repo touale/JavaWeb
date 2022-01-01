@@ -9,6 +9,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.apache.log4j.Logger;
+
 /**
  * @author Touale
  * @description LoginServiceImpl
@@ -21,8 +23,10 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public ResultDTO doLogin(JSONObject jsonParam, HttpServletRequest request) {
+
         String user = jsonParam.getString("uname");
         String pwd = jsonParam.getString("upwd");
+
         ResultDTO resultDTO = new ResultDTO();
 
         if (remoteUserService.doLogin(user, pwd)) {
