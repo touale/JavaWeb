@@ -20,8 +20,8 @@ public class WebInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        System.out.println("preHandle：在进入拦截器，执行Controller之前调用");
-        System.out.println("拦截" + request.getRequestURL());
+//        System.out.println("preHandle：在进入拦截器，执行Controller之前调用");
+//        System.out.println("拦截" + request.getRequestURL());
 
 
         Object object = request.getSession().getAttribute("users");

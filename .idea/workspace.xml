@@ -9,23 +9,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87543893-4307-4bde-a99b-aeae1f1e84f5" name="Changes" comment="version 2.8 opt \n in news and comments">
-      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/error/302.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/error/405.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-web-82/src/test/java/test/cn/touale/cula/controller/LoginControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-web-82/src/test/java/test/cn/touale/cula/controller/UtilControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="87543893-4307-4bde-a99b-aeae1f1e84f5" name="Changes" comment="version 3.0 add test and everything is ok!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/springcloud-web-82.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/springcloud-web-82.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/CSS/admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/CSS/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/CSS/read.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/Picture1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/Picture2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/Picture3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/Picture4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/a_b01.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/admin_bar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/arrow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/blue_bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/channel_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/class_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/class_type.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/firend_bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/friend_ico.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/friend_logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/friend_t.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/head.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/login_input.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/login_sub.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/logo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/main-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/nav_leftdot.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/nav_leftline.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/opt_name.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/opt_sub.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/sidebarbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/title_1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/title_2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/title_3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/topbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/META-INF/springcloud-web-82.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/cn/touale/cula/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/cn/touale/cula/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/cn/touale/cula/api/RemoteNewsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/cn/touale/cula/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/cn/touale/cula/entity/News.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/index-elements/index_bottom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/index-elements/index_rightbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/index-elements/index_sidebar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/index-elements/index_top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/news_read.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/admin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/console_element/bottom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/console_element/left - 副本.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/console_element/left.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/console_element/left.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/console_element/top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/news_add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/news_modify.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/topic_add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/topic_list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/topic_modify.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/config/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/config/InterceptorConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/error/500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/error/500.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/interceptor/WebInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/interceptor/WebInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/news_read.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/news_read.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/META-INF/resources/news_read.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/META-INF/resources/news_read.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/config/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/config/InterceptorConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,7 +379,7 @@
       <workItem from="1640957198704" duration="26367000" />
       <workItem from="1641026479320" duration="5588000" />
       <workItem from="1641032104976" duration="2374000" />
-      <workItem from="1641037022780" duration="4317000" />
+      <workItem from="1641037022780" duration="5298000" />
     </task>
     <task id="LOCAL-00001" summary="add eureka">
       <created>1640841325280</created>
@@ -435,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641030764445</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="version 3.0 add test and everything is ok!">
+      <created>1641041545784</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1641041545784</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,6 +538,7 @@
     <MESSAGE value="version 2.6 opt service" />
     <MESSAGE value="version 2.7 add log" />
     <MESSAGE value="version 2.8 opt \n in news and comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2.8 opt \n in news and comments" />
+    <MESSAGE value="version 3.0 add test and everything is ok!" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 3.0 add test and everything is ok!" />
   </component>
 </project>

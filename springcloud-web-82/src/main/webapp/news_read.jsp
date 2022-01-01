@@ -2,9 +2,8 @@
 <%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
 
 <jsp:include page="index-elements/index_top"/>
-
+<%--<link href="/CSS/admin.css" rel="stylesheet" type="text/css" />--%>
 <link href="CSS/read.css" rel="stylesheet" type="text/css"/>
-<link href="/CSS/admin.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript">
     function formatText(name) {
@@ -92,7 +91,8 @@
             <tr>
                 <td>&nbsp;</td>
             </tr>
-            <h1 id="opt_type" align="left">新闻评论：</h1>
+
+            <h3 id="opt_type" align="left">新闻评论：</h3>
 
             <ul class="classlist">
                 <table width="95%">
