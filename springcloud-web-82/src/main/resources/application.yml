@@ -1,8 +1,6 @@
 server:
   port: 81
 
-
-
 eureka:
   client:
     service-url:
@@ -15,9 +13,3 @@ spring:
   application:
     name: web-81
 
-##如果按照一般web工程将页面放在src/main/webapp/WEB-INF/jsp/，则配置前缀
-#spring.mvc.view.prefix: /WEB-INF/
-#spring.mvc.view.suffix: .jsp
-## 配置Tomcat编码
-#server.tomcat.uri-encoding: UTF-8
-#server.servlet.context-path: /boot

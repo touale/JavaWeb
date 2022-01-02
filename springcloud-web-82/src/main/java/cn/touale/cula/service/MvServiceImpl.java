@@ -32,6 +32,13 @@ public class MvServiceImpl implements MvService {
     private RemoteCommentsService remoteCommentsService;
 
     @Override
+    public ModelAndView buildMv(HttpServletRequest request, String name) {
+        ModelAndView mv = new ModelAndView();
+        mv.setViewName(name);
+        return mv;
+    }
+
+    @Override
     public ModelAndView index(HttpServletRequest request) {
         String page_no = request.getParameter("page_no");
         String tid_no = request.getParameter("tid");
@@ -42,7 +49,6 @@ public class MvServiceImpl implements MvService {
         try {
             tid = Integer.parseInt(tid_no);
         } catch (Exception e) {
-            System.out.println(e);
             tid = 1;
         }
 
@@ -50,7 +56,6 @@ public class MvServiceImpl implements MvService {
         try {
             page = Integer.parseInt(page_no);
         } catch (Exception e) {
-            System.out.println(e);
             page = 1;
         } finally {
             total = total % size == 0 ? total / size : total / size + 1;
@@ -119,7 +124,6 @@ public class MvServiceImpl implements MvService {
         try {
             page = Integer.parseInt(page_no);
         } catch (Exception e) {
-            System.out.println(e);
             page = 1;
         } finally {
             total = total % size == 0 ? total / size : total / size + 1;
@@ -167,13 +171,6 @@ public class MvServiceImpl implements MvService {
     }
 
     @Override
-    public ModelAndView buildMv(HttpServletRequest request, String name) {
-        ModelAndView mv = new ModelAndView();
-        mv.setViewName(name);
-        return mv;
-    }
-
-    @Override
     public ModelAndView newspages_news_add(HttpServletRequest request) {
         List<Topic> topicList = remoteTopicService.getTopicList();
         ModelAndView mv = new ModelAndView();
@@ -192,7 +189,6 @@ public class MvServiceImpl implements MvService {
         try {
             page = Integer.parseInt(page_no);
         } catch (Exception e) {
-            System.out.println(e);
             page = 1;
         } finally {
             total = total % size == 0 ? total / size : total / size + 1;

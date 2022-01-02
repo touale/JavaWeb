@@ -19,7 +19,9 @@ public class WebInterceptor implements HandlerInterceptor {
     private RemoteNewsService service;
 
     @Override
-    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+    public boolean preHandle(HttpServletRequest request,
+                             HttpServletResponse response,
+                             Object handler) throws Exception {
 //        System.out.println("preHandle：在进入拦截器，执行Controller之前调用");
 //        System.out.println("拦截" + request.getRequestURL());
 
@@ -35,7 +37,10 @@ public class WebInterceptor implements HandlerInterceptor {
     }
 
     @Override
-    public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
+    public void postHandle(HttpServletRequest request,
+                           HttpServletResponse response,
+                           Object handler,
+                           ModelAndView modelAndView) throws Exception {
         // System.out.println("postHandle：执行完Controller逻辑，在Controller的return ModelAndView 之前执行，可以操控ModelAndView的数据");
         // System.out.println("postHandle：修改了ModelAndView中的name值");
 //        if (response.getStatus() == 500) {
@@ -46,7 +51,10 @@ public class WebInterceptor implements HandlerInterceptor {
     }
 
     @Override
-    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
+    public void afterCompletion(HttpServletRequest request,
+                                HttpServletResponse response,
+                                Object handler,
+                                Exception ex) throws Exception {
         //System.out.println("afterCompletion：Controller的Return之后，Filter返回给客户端之前（应该是FilterAfter方法执行前）");
     }
 

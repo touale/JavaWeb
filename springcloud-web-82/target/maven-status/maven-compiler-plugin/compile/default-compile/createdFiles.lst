@@ -1,0 +1,16 @@
+cn\touale\cula\service\UserService.class
+cn\touale\cula\controller\UtilController.class
+cn\touale\cula\service\UserServiceImpl.class
+cn\touale\cula\WebApplication_81.class
+cn\touale\cula\controller\BasicMvController.class
+cn\touale\cula\controller\LoginController.class
+cn\touale\cula\interceptor\WebInterceptor.class
+cn\touale\cula\api\RemoteUserService.class
+cn\touale\cula\api\RemoteCommentsService.class
+cn\touale\cula\service\UtilService.class
+cn\touale\cula\service\MvServiceImpl.class
+cn\touale\cula\service\MvService.class
+cn\touale\cula\api\RemoteNewsService.class
+cn\touale\cula\api\RemoteTopicService.class
+cn\touale\cula\service\UtilServiceImpl.class
+cn\touale\cula\config\InterceptorConfig.class

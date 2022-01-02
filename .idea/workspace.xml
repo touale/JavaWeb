@@ -9,74 +9,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87543893-4307-4bde-a99b-aeae1f1e84f5" name="Changes" comment="version 3.0 add test and everything is ok!">
+    <list default="true" id="87543893-4307-4bde-a99b-aeae1f1e84f5" name="Changes" comment="version 3.1 auto deploy and run">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/CSS/admin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/CSS/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/CSS/read.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/Picture1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/Picture2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/Picture3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/Picture4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/a_b01.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/admin_bar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/arrow.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/blue_bar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/channel_bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/class_bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/class_type.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/firend_bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/friend_ico.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/friend_logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/friend_t.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/head.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/login_input.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/login_sub.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/logo1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/main-1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/nav_leftdot.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/nav_leftline.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/opt_name.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/opt_sub.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/sidebarbg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/title_1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/title_2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/title_3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/Images/topbg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/META-INF/springcloud-web-82.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/cn/touale/cula/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/cn/touale/cula/HelloServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/cn/touale/cula/api/RemoteNewsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/cn/touale/cula/controller/TestController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/classes/cn/touale/cula/entity/News.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/index-elements/index_bottom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/index-elements/index_rightbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/index-elements/index_sidebar.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/index-elements/index_top.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/news_read.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/admin.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/console_element/bottom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/console_element/left - 副本.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/console_element/left.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/console_element/left.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/console_element/top.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/news_add.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/news_modify.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/topic_add.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/topic_list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/springcloud_web_82_war_exploded/newspages/topic_modify.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/config/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/config/InterceptorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-eureka-7001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-7001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-eureka-7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-7001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-newsService-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-newsService-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/springcloud-web-82.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/springcloud-web-82.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/BasicMvController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/BasicMvController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/UtilController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/controller/UtilController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/interceptor/WebInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/interceptor/WebInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/news_read.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/webapp/news_read.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/META-INF/resources/news_read.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/META-INF/resources/news_read.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/MvService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/MvService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/MvServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/MvServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/UtilService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/UtilService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/UtilServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/java/cn/touale/cula/service/UtilServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/config/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/config/InterceptorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/BasicMvController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/BasicMvController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/UtilController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/controller/UtilController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/interceptor/WebInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/interceptor/WebInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/MvService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/MvService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/MvServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/MvServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/UtilService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/UtilService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/UtilServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/cn/touale/cula/service/UtilServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-web-82/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-web-82/target/classes/log4j.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +113,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.application" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -191,38 +155,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginControllerTest.testDoLogin_failLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springcloud-web-82" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.cn.touale.cula.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.cn.touale.cula.controller" />
-      <option name="MAIN_CLASS_NAME" value="test.cn.touale.cula.controller.LoginControllerTest" />
-      <option name="METHOD_NAME" value="testDoLogin_failLogin" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginControllerTest.testDoLogin_succLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springcloud-web-82" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.cn.touale.cula.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.cn.touale.cula.controller" />
-      <option name="MAIN_CLASS_NAME" value="test.cn.touale.cula.controller.LoginControllerTest" />
-      <option name="METHOD_NAME" value="testDoLogin_succLogin" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UtilControllerTest.testDoAddNews" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springcloud-web-82" />
       <extension name="coverage">
@@ -235,6 +167,32 @@
       <option name="MAIN_CLASS_NAME" value="test.cn.touale.cula.controller.UtilControllerTest" />
       <option name="METHOD_NAME" value="testDoAddNews" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication_7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-eureka-7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.touale.cula.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.touale.cula.EurekaApplication_7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsApplication_8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-newsService-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.touale.cula.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.touale.cula.NewsApplication_8001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -346,19 +304,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.LoginControllerTest" />
-      <item itemvalue="Spring Boot.WebApplication_81" />
-      <item itemvalue="Tomcat Server.Tomcat 8.0.50" />
-      <item itemvalue="JUnit.LoginControllerTest.testDoLogin_failLogin" />
-      <item itemvalue="JUnit.LoginControllerTest.testDoLogin_succLogin" />
       <item itemvalue="JUnit.UtilControllerTest.testDoAddNews" />
+      <item itemvalue="Spring Boot.WebApplication_81" />
+      <item itemvalue="Spring Boot.EurekaApplication_7001" />
+      <item itemvalue="Spring Boot.NewsApplication_8001" />
+      <item itemvalue="Tomcat Server.Tomcat 8.0.50" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.WebApplication_81" />
+        <item itemvalue="Spring Boot.NewsApplication_8001" />
+        <item itemvalue="Spring Boot.EurekaApplication_7001" />
         <item itemvalue="JUnit.UtilControllerTest.testDoAddNews" />
         <item itemvalue="JUnit.LoginControllerTest" />
-        <item itemvalue="JUnit.LoginControllerTest.testDoLogin_succLogin" />
-        <item itemvalue="JUnit.LoginControllerTest.testDoLogin_failLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +337,10 @@
       <workItem from="1640957198704" duration="26367000" />
       <workItem from="1641026479320" duration="5588000" />
       <workItem from="1641032104976" duration="2374000" />
-      <workItem from="1641037022780" duration="5298000" />
+      <workItem from="1641037022780" duration="5601000" />
+      <workItem from="1641107257057" duration="103000" />
+      <workItem from="1641107384392" duration="5479000" />
+      <workItem from="1641115457586" duration="1394000" />
     </task>
     <task id="LOCAL-00001" summary="add eureka">
       <created>1640841325280</created>
@@ -493,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641041545784</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="version 3.01 opt config">
+      <created>1641042371985</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1641042371985</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,6 +507,8 @@
     <MESSAGE value="version 2.7 add log" />
     <MESSAGE value="version 2.8 opt \n in news and comments" />
     <MESSAGE value="version 3.0 add test and everything is ok!" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 3.0 add test and everything is ok!" />
+    <MESSAGE value="version 3.01 opt config" />
+    <MESSAGE value="version 3.1 auto deploy and run" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 3.1 auto deploy and run" />
   </component>
 </project>

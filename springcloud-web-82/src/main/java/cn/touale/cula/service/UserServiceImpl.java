@@ -47,7 +47,6 @@ public class UserServiceImpl implements UserService {
             isLogin = 0;
         }
 
-        System.out.println("object" + object);
         ModelAndView mv = new ModelAndView();
         mv.addObject("userName", object)
                 .addObject("isLogin", isLogin);

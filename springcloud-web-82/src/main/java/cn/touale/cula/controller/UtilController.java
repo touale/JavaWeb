@@ -56,7 +56,6 @@ public class UtilController {
         return resultDTO;
     }
 
-
     @PostMapping(value = "do_add_news",
             produces = "application/json;charset=UTF-8")
     public ResultDTO doAddNews(@RequestBody JSONObject jsonParam) {

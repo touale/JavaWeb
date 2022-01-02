@@ -43,6 +43,11 @@ public class UtilServiceImpl implements UtilService {
     }
 
     @Override
+    public void doDealCommentByCid(Long cid) {
+        remoteCommentsService.dealCommentByCid(cid);
+    }
+
+    @Override
     public ResultDTO doUpdateNews(JSONObject jsonParam) {
         /**
          * nauthor: ""
@@ -96,18 +101,11 @@ public class UtilServiceImpl implements UtilService {
         return resultDTO;
     }
 
-
     @Override
     public void doDealNews(Long nid) {
         remoteCommentsService.dealCommentByCnid(nid);
         remoteNewsService.dealNewsInfo(nid);
     }
-
-    @Override
-    public void doDealCommentByCid(Long cid) {
-        remoteCommentsService.dealCommentByCid(cid);
-    }
-
 
     @Override
     public ResultDTO doAddTopic(JSONObject jsonParam) {

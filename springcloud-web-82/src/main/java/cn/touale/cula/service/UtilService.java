@@ -16,20 +16,18 @@ import javax.servlet.http.HttpServletRequest;
 public interface UtilService {
     ResultDTO doAddComment(Long nid, JSONObject jsonParam);
 
+    void doDealCommentByCid(Long cid);
+
     ResultDTO doUpdateNews(JSONObject jsonParam);
 
     ResultDTO doAddNews(JSONObject jsonParam);
 
     void doDealNews(Long nid);
 
-    void doDealCommentByCid(Long cid);
-
-
     ResultDTO doAddTopic(JSONObject jsonParam);
 
     void doDealTopic(Long tid);
 
     ResultDTO doUpdateTopic(JSONObject jsonParam);
-
 
 }

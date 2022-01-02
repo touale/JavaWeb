@@ -5,7 +5,7 @@ server:
 # Eureka配置
 eureka:
   instance:
-    hostname: GZHU-eureka_7001
+    hostname: eureka_7001
   client:
     register-with-eureka: false
     fetch-registry: false
