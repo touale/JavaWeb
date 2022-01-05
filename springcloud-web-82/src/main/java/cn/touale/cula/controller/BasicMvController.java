@@ -61,6 +61,16 @@ public class BasicMvController {
         }
     }
 
+    @GetMapping(value ={"/index-elements/index_sidebar"})
+    public ModelAndView indexSidebar(HttpServletRequest request){
+        try {
+            return mvService.indexSidebar(request);
+        } catch (Exception e) {
+            logger.error("首页左部元素错误", e);
+            return mvService.buildMv(request, "index-elements/index_sidebar");
+        }
+    }
+
     @RequestMapping(value = {"/newspages/admin",})
     public ModelAndView newspages_admin(HttpServletRequest request) {
         try {
@@ -157,5 +167,6 @@ public class BasicMvController {
         }
         return "redirect:/newspages/topic_list?page_no=" + page_no;
     }
+
 
 }

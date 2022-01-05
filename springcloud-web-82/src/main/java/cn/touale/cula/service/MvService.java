@@ -18,6 +18,8 @@ public interface MvService {
 
     ModelAndView newsRead(HttpServletRequest request);
 
+    ModelAndView indexSidebar(HttpServletRequest request);
+
     ModelAndView newspages_admin(HttpServletRequest request);
 
     ModelAndView newspages_news_modify(HttpServletRequest request);

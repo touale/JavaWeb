@@ -81,17 +81,17 @@
     </dependencies>
 
     <build>
-<!--        <plugins>-->
-<!--            <plugin>-->
-<!--                <groupId>org.springframework.boot</groupId>-->
-<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
-<!--                <version>1.4.2.RELEASE</version>-->
-<!--                <configuration>-->
-<!--                    &lt;!&ndash;					改成自己的启动类路径！！&ndash;&gt;-->
-<!--                    <mainClass>cn.touale.cula.WebApplication_81</mainClass>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
-<!--        </plugins>-->
+        <!--        <plugins>-->
+        <!--            <plugin>-->
+        <!--                <groupId>org.springframework.boot</groupId>-->
+        <!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+        <!--                <version>1.4.2.RELEASE</version>-->
+        <!--                <configuration>-->
+        <!--                    &lt;!&ndash;					改成自己的启动类路径！！&ndash;&gt;-->
+        <!--                    <mainClass>cn.touale.cula.WebApplication_81</mainClass>-->
+        <!--                </configuration>-->
+        <!--            </plugin>-->
+        <!--        </plugins>-->
         <resources>
             <resource>
                 <directory>${basedir}/src/main/webapp</directory>
@@ -113,59 +113,59 @@
             </resource>
         </resources>
 
-                <plugins>
-                    <plugin>
-                        <groupId>org.springframework.boot</groupId>
-                        <artifactId>spring-boot-maven-plugin</artifactId>
-                        <version>1.4.2.RELEASE</version>
-                        <configuration>
-                            <!-- 设置启动类 -->
-                            <mainClass>cn.touale.cula.WebApplication_81</mainClass>
-                        </configuration>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>1.4.2.RELEASE</version>
+                <configuration>
+                    <!-- 设置启动类 -->
+                    <mainClass>cn.touale.cula.WebApplication_81</mainClass>
+                </configuration>
 
-                        <executions>
-                            <execution>
-                                <goals>
-                                    <!--可以把依赖的包都打包到生成的Jar包中-->
-                                    <goal>repackage</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                    </plugin>
-                </plugins>
+                <executions>
+                    <execution>
+                        <goals>
+                            <!--可以把依赖的包都打包到生成的Jar包中-->
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
     </build>
 
-<!--    <build>-->
-<!--        <resources>-->
-<!--            <resource>-->
-<!--                &lt;!&ndash; 源文件夹 &ndash;&gt;-->
-<!--                <directory>src/main/webapp</directory>-->
-<!--                &lt;!&ndash; 指定编译到的路径为 META-INF/resources &ndash;&gt;-->
-<!--                <targetPath>META-INF/resources</targetPath>-->
-<!--                &lt;!&ndash; 指定源文件夹中的哪些资源需要进行编译 &ndash;&gt;-->
-<!--                <includes>-->
-<!--                    <include>*.*</include>-->
-<!--                </includes>-->
-<!--            </resource>-->
-<!--        </resources>-->
+    <!--    <build>-->
+    <!--        <resources>-->
+    <!--            <resource>-->
+    <!--                &lt;!&ndash; 源文件夹 &ndash;&gt;-->
+    <!--                <directory>src/main/webapp</directory>-->
+    <!--                &lt;!&ndash; 指定编译到的路径为 META-INF/resources &ndash;&gt;-->
+    <!--                <targetPath>META-INF/resources</targetPath>-->
+    <!--                &lt;!&ndash; 指定源文件夹中的哪些资源需要进行编译 &ndash;&gt;-->
+    <!--                <includes>-->
+    <!--                    <include>*.*</include>-->
+    <!--                </includes>-->
+    <!--            </resource>-->
+    <!--        </resources>-->
 
 
-<!--        <plugins>-->
-<!--            <plugin>-->
-<!--                <groupId>org.springframework.boot</groupId>-->
-<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <goals>-->
-<!--                            &lt;!&ndash;可以把依赖的包都打包到生成的Jar包中&ndash;&gt;-->
-<!--                            <goal>repackage</goal>-->
-<!--                        </goals>-->
-<!--                    </execution>-->
-<!--                </executions>-->
-<!--            </plugin>-->
-<!--        </plugins>-->
+    <!--        <plugins>-->
+    <!--            <plugin>-->
+    <!--                <groupId>org.springframework.boot</groupId>-->
+    <!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+    <!--                <executions>-->
+    <!--                    <execution>-->
+    <!--                        <goals>-->
+    <!--                            &lt;!&ndash;可以把依赖的包都打包到生成的Jar包中&ndash;&gt;-->
+    <!--                            <goal>repackage</goal>-->
+    <!--                        </goals>-->
+    <!--                    </execution>-->
+    <!--                </executions>-->
+    <!--            </plugin>-->
+    <!--        </plugins>-->
 
 
-<!--    </build>-->
+    <!--    </build>-->
 
 </project>

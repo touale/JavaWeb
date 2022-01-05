@@ -40,7 +40,7 @@
 <body onload="change('ncontent');">
 
 <div id="container">
-    <jsp:include page="index-elements/index_sidebar.jsp"></jsp:include>
+    <jsp:include page="index-elements/index_sidebar"></jsp:include>
     <div class="main">
         <div class="class_type">
             <img src="Images/class_type.gif" alt="新闻中心"/>

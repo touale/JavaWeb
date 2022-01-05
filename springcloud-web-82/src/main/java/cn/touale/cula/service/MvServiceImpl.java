@@ -43,16 +43,22 @@ public class MvServiceImpl implements MvService {
         String page_no = request.getParameter("page_no");
         String tid_no = request.getParameter("tid");
 
+        List<Topic> topicList = remoteTopicService.getTopicList();
+        Topic tempTopic = new Topic();
+        tempTopic.setTid(0);
+        tempTopic.setTname("全部");
+        topicList.add(0,tempTopic);
+
         Integer page = null;
         Integer tid = null;
-        Integer size = 18;
+        Integer size = 10;
         try {
             tid = Integer.parseInt(tid_no);
         } catch (Exception e) {
-            tid = 1;
+            tid = 0;
         }
 
-        Integer total = remoteNewsService.getNewsNum(tid);
+        Integer total = tid != 0 ? remoteNewsService.getNewsNum(tid) : remoteNewsService.getAllNewsNum();
         try {
             page = Integer.parseInt(page_no);
         } catch (Exception e) {
@@ -67,7 +73,7 @@ public class MvServiceImpl implements MvService {
         mv.addObject("newsList", remoteNewsService.getNewsInfoList(page, size, tid))
                 .addObject("cuurentPage", page)
                 .addObject("totalPage", total)
-                .addObject("topicList", remoteTopicService.getTopicList())
+                .addObject("topicList", topicList)
                 .addObject("currentTopicId", tid);
 
         mv.setViewName("index");
@@ -82,9 +88,9 @@ public class MvServiceImpl implements MvService {
         List<Comments> commentsList = remoteCommentsService.getCommentsByNid(news.getNid());
         List<Comments> commentsListNew = new ArrayList<>();
 
-        for(Comments comments : commentsList){
+        for (Comments comments : commentsList) {
             comments.setCcontent(
-                    comments.getCcontent().replace("\n","<br>")
+                    comments.getCcontent().replace("\n", "<br>")
             );
             commentsListNew.add(comments);
         }
@@ -94,7 +100,6 @@ public class MvServiceImpl implements MvService {
 
         Object object = request.getSession().getAttribute("users");
         String userName = object == null ? "游客" : object.toString();
-
 
         mv.addObject("ncontent", news.getNcontent())
                 .addObject("ncreatedate", news.getNcreatedate())
@@ -109,6 +114,18 @@ public class MvServiceImpl implements MvService {
                 .addObject("currentUser", userName);
 
         mv.setViewName("news_read");
+        return mv;
+    }
+
+    @Override
+    public ModelAndView indexSidebar(HttpServletRequest request) {
+        ModelAndView mv = new ModelAndView();
+
+        mv.addObject("newsList_international", remoteNewsService.getNewsInfoList(1, 10, 2))
+                .addObject("newsList_entertainment", remoteNewsService.getNewsInfoList(1, 10, 5))
+                .addObject("newsList_domestic", remoteNewsService.getNewsInfoList(1, 10, 1));
+
+        mv.setViewName("index-elements/index_sidebar");
         return mv;
     }
 
@@ -151,9 +168,9 @@ public class MvServiceImpl implements MvService {
         List<Comments> commentsList = remoteCommentsService.getCommentsByNid(news.getNid());
         List<Comments> commentsListNew = new ArrayList<>();
 
-        for(Comments comments : commentsList){
+        for (Comments comments : commentsList) {
             comments.setCcontent(
-                    comments.getCcontent().replace("\n","<br>")
+                    comments.getCcontent().replace("\n", "<br>")
             );
             commentsListNew.add(comments);
         }

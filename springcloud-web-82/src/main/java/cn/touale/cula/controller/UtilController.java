@@ -19,6 +19,7 @@ import javax.servlet.http.HttpServletRequest;
 @RestController
 @RequestMapping("/util")
 public class UtilController {
+
     @Autowired
     private UtilService utilService;
 
@@ -41,6 +42,7 @@ public class UtilController {
         }
         return resultDTO;
     }
+
 
     @PostMapping(value = "do_update_news",
             produces = "application/json;charset=UTF-8")
